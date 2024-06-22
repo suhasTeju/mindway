@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { FeatureCard } from "./UI/featureCard";
 
@@ -27,7 +28,8 @@ const featuredProductList = [
   },
 ];
 
-export const FeatureProduct = () => {
+export const 
+FeatureProduct = () => {
   return (
     <div className="flex-column" data-aos="fade-up">
       <div className="dark:text-white text-black text-2xl md:text-6xl font-bold mt-4">
