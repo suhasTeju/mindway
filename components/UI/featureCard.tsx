@@ -20,7 +20,7 @@ export function FeatureCard({
   alt,
 }: FeatureCardProps) {
   const handler = () => {
-    window.open(link, "_self");
+    // window.open(link, "_self");
   };
   return (
     <div style={{position: "relative"}}>
