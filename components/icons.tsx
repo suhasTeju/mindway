@@ -271,3 +271,70 @@ export const WhatsAppLogo: React.FC<IconSvgProps> = (props) => {
     </svg>
   );
 };
+
+export const IconTestTube: React.FC<IconSvgProps> = ({ width = 24, height = 24 }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="#16A349"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M9 2v11.38a3 3 0 0 0 .878 2.122l5.12 5.12a2.828 2.828 0 0 0 4-4l-5.12-5.12A3 3 0 0 0 11.38 9H2"></path>
+    <line x1="9" y1="2" x2="2" y2="9"></line>
+  </svg>
+);
+
+export const IconChemical: React.FC<IconSvgProps> = ({ width = 24, height = 24 }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="#16A349"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M19 16l-6-6V2h2V0h-4v2h2v8l-6 6"></path>
+    <path d="M13 19c1.5-1.5 3.5-1.5 5 0"></path>
+    <path d="M15.5 22.5c-1.5 1.5-3.5 1.5-5 0"></path>
+    <path d="M10 22c-1.5-1.5-3.5-1.5-5 0"></path>
+  </svg>
+);
+
+export const DarkShopMarkerIcon: React.FC<IconSvgProps> = ({ width = 24, height = 24 }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="dark-shop-marker-icon"
+  >
+    <path
+      d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z"
+      fill="#000000" // Dark color for the marker
+      stroke="none"
+    />
+    <path
+      d="M9 10v-1c0-1.104.896-2 2-2s2 .896 2 2v1h2v7H7v-7h2z"
+      fill="#FFFFFF" // White color for the shop/bag icon
+      stroke="none"
+    />
+    <path
+      d="M9 10h6"
+      stroke="#FFFFFF" // White color for the shop/bag icon
+      strokeWidth="2"
+    />
+  </svg>
+);
