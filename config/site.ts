@@ -32,7 +32,7 @@ export const siteConfig = {
     whatsapp: "https://wa.me/+919731370710"
   },
   logo: {
-    transparent: "/midway-transparent-logo.png"
+    transparent: "/footer-logo.png"
   },
   hero: {
     header: "Leading the Way",

@@ -30,7 +30,11 @@ export default function Home() {
 
       <div className="mt-8 w-full" data-aos="fade-up">
         <div className="w-full p-4 bg-white shadow-md rounded-lg">
-          <h1 className="text-2xl font-bold mb-4">Locate us </h1>
+          <h1 className="text-2xl font-bold mb-4">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-green-600 to-green-500">
+              Locate us
+            </span>
+          </h1>
           <Map />
         </div>
       </div>
