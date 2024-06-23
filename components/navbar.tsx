@@ -32,7 +32,7 @@ export const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const handleMenuItemClick = (item) => {
+  const handleMenuItemClick = (item:any) => {
     if (item.label === "Products") {
       setMegaMenuOpen(!megaMenuOpen);
     } else {
