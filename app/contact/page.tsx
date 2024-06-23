@@ -3,32 +3,36 @@ import { Logo } from "@/components/icons";
 import { siteConfig } from "@/config/site";
 
 export default function () {
-
     const handler = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault(); // Prevent the default form submission
-      
-        // Get form data
+    
+        // Extract form data
         const formData = new FormData(e.currentTarget);
-        formData.append("token", "YourToken"); // Replace with your actual token
-        formData.append("to", "8073502700"); // Replace with the recipient's number
-        formData.append("priority", "");
-        formData.append("preview_url", "");
-        formData.append("message_id", "");
-      
-        const requestOptions: RequestInit = {
-          method: "POST",
-          body: formData,
-          redirect: "follow",
-        };
-      
-        try {
-          const response = await fetch("https://api.alvochat.com/instance1199/messages/chat", requestOptions);
-          const result = await response.text();
-          console.log(result);
-        } catch (error) {
-          console.error("Error:", error);
-        }
-      };
+        const formDataObject: any = {}; // Object to hold form data key-value pairs
+    
+        formData.forEach((value, key) => {
+            formDataObject[key] = value;
+        });
+    
+        // Ensure we have the expected fields in formDataObject
+        const name = formDataObject['name'] || '';
+        const email = formDataObject['email'] || '';
+        const phone = formDataObject['phone'] || '';
+        const enquiry = formDataObject['enquiry'] || '';
+    
+        // Construct prefilled text for WhatsApp message
+        const prefilledText = `Hey Mindway Biomedicals, \n i need to know more about my Enquiry: ${enquiry} \n Here are my details please let me know ASAP \n Name: ${name}\nEmail: ${email}\nPhone: ${phone}`;
+    
+        // Encode prefilled text for URL
+        const encodedText = encodeURIComponent(prefilledText);
+    
+        // Construct WhatsApp URL with prefilled text
+        const whatsappURL = `https://wa.me/+919731370710?text=${encodedText}`;
+    
+        // Redirect user to WhatsApp
+        window.location.href = whatsappURL;
+    };
+    
 
   return (
     <>
@@ -188,17 +192,25 @@ export default function () {
                     type="text"
                     className="w-full h-14 shadow-sm text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-full border border-green-200 focus:outline-none py-2 px-4 mb-8"
                     placeholder="Name"
+                    name="name"
                   />
                   <input
                     type="email"
                     className="w-full h-14 shadow-sm text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-full border border-green-200 focus:outline-none py-2 px-4 mb-8"
                     placeholder="Email"
+                    name="email"
+                  />
+                  <input
+                    type="phone"
+                    className="w-full h-14 shadow-sm text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-full border border-green-200 focus:outline-none py-2 px-4 mb-8"
+                    placeholder="Phone number"
+                    name="phone"
                   />
                   <textarea
-                    name=""
+                    name="enquiry"
                     id="text"
                     className="w-full h-48 shadow-sm resize-none text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-2xl border border-green-200 focus:outline-none px-4 py-4 mb-8"
-                    placeholder="Phone"
+                    placeholder="Write your enquiry"
                   ></textarea>
                   <button className="w-full h-12 text-center text-white text-base font-semibold leading-6 rounded-full bg-green-600 shadow transition-all duration-700 hover:bg-indigo-800">
                     Submit
