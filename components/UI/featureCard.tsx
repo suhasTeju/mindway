@@ -24,6 +24,7 @@ export function FeatureCard({
   const handler = () => {
     // window.open(link, "_self");
   };
+  
   return (
     <div style={{ position: "relative" }}>
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
@@ -34,7 +35,7 @@ export function FeatureCard({
           height="250"
           className="object-contain"
           style={{
-            height: customHeight ? "130px" : "auto",
+            height: customHeight ? "150px" : "auto",
           }}
         />
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
@@ -55,7 +56,7 @@ export function FeatureCard({
           </button>
         </a>
       </BackgroundGradient>
-      <div style={{ position: "absolute", top: 20, zIndex: 99, right: 20 }}>
+      <div style={{ position: "absolute", top: 12, zIndex: 99, right: 20 }}>
         <button className="px-2 rounded-xl border border-neutral-500 text-black-300 bg-white hover:bg-gray-100 transition duration-200">
           Featured
         </button>

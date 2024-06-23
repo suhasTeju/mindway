@@ -4,27 +4,27 @@ import { FeatureCard } from "./UI/featureCard";
 
 const featuredProductList = [
   {
-    src: "/u36001.png",
-    title: "Urinalysis Hybrid System",
-    subtitle: "An integrated system for upgrading your lab urinalysis solution",
+    src: "/prochem2001.webp",
+    title: "Prochem PA-200",
+    subtitle: "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated biochemistry analyzer proficient in performing tests on whole blood, serum, plasma, and urine as a samples",
     link: "/",
-    alt: "urinalysis",
+    alt: "Hematology Analyzer",
   },
   {
-    src: "/yx20001.png",
-    title: "Automated Blood Coagulation Analyzer",
+    src: "/prochem1001.webp",
+    title: "Prochem-PA100",
     subtitle:
-      "Integrating Mechanical and Optical Coagulation Analysis Platform in clotting method.",
+      "The Promea PA100 Electrolyte Analyzer is a cutting-edge device designed to accurately measure and analyze various essential parameters in a wide range of specimens, including Whole Blood, Serum, Plasma, and Urine.",
     link: "/",
-    alt: "Blood Coagulation",
+    alt: "Prochem-PA100",
   },
   {
-    src: "/exc4001.png",
-    title: "Chemistry Analyzer",
+    src: "/st200cc1.png",
+    title: "ST 200 CC Smart Blood Gas Analyzer",
     subtitle:
-      "An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
+      "This next-generation Hybrid device represents a significant leap forward in efficiency, accuracy, and connectivity for critical blood gas and electrolyte analysis",
     link: "/",
-    alt: "Analyzer",
+    alt: "ST 200 CC Smart",
   },
 ];
 
@@ -41,7 +41,7 @@ export const FeatureProduct = () => {
       <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 justify-center">
         {featuredProductList.map((item, index) => (
           <div key={item.alt} className="p-4">
-            <FeatureCard {...item} customHeight={index == 0} />
+            <FeatureCard {...item} customHeight={index === 2} />
           </div>
         ))}
       </div>

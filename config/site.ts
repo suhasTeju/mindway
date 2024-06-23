@@ -219,9 +219,31 @@ export const siteConfig = {
         {
           category: "CLIA",
           itemName: "EXI 1800",
-          highlightPoints: [],
-          description: "",
+          highlightPoints: [
+            "Magnetic separation technical patent",
+            "Innovative non-contact vortex mixing technology",
+            "Unique constant temperature incubation system",
+            "Multi-module integration technology Up to 351 T/H m²",
+          ],
+          description:
+            "Technical innovation, more accurate resullts Magnetic separation patent Non-contact vortex mixing Multi-module integration",
           imgSrc: "/exi18001.jpg",
+          totalReview: "4",
+        },
+        {
+          category: "CLIA",
+          itemName: "Chemiluminescence",
+          //Cardiac Inflammation Thyroid Fertility Tumor markers Diabetes Bone metabolism Gastric Anemia
+          highlightPoints: [
+            "Cardiac",
+            "Inflammation",
+            "Thyroid",
+            "Fertility",
+            "Tumor markers",
+          ],
+          description:
+            "The test menu covers thyroid, fertility, tumor markers, cardiac, inflammation, diabetes, etc.; Constantly innovating, fully meeting the needs of clinical laboratories .",
+          imgSrc: "/Chemiluminescence1.jpg",
           totalReview: "4",
         },
       ],
@@ -234,9 +256,44 @@ export const siteConfig = {
         {
           category: "Clinical Chemistry",
           itemName: "EXC 400",
-          highlightPoints: [],
-          description: "",
+          highlightPoints: [
+            "Constant 400 T/H offers a higher efficiency",
+            "Bilateral LIS interface allows convenient results transfer",
+            "Over 100 original reagents and quality controls ensure reliable and traceable results",
+            "Minimum reaction volume and lower water consumption result in cost-effectiveness",
+          ],
+          description:
+            "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
           imgSrc: "exc4001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Clinical Chemistry",
+          itemName: "EXC 200",
+          highlightPoints: [
+            "Integrated design combining operation system and analyzer saves more space for small labs, clinics and etc.",
+            "Colorful touch screen and intuitive navigation menu offer user-friendly experience",
+            "Minimum reaction volume 90μL and lower water consumption result in cost-effectiveness",
+            "Bilateral LIS interface allows convenient results transfer",
+            "Over 100 original reagents and quality controls ensure reliable and traceable results",
+          ],
+          description:
+            "Chemistry Analyzer An automated desktop chemistry analyzer dedicated for small healthcare institution",
+          imgSrc: "exc2001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Clinical Chemistry",
+          itemName: "Chemical Reagent",
+          //Hepatic Panel Renal Panel Lipids Panel Cardiac & Cardiovascular Panel Diabetes Panel Tumor Panel Coagulation Panel
+          highlightPoints: [
+            "Hepatic Panel , Renal Panel,  Lipids Panel , Cardiac & Cardiovascular Panel,  Diabetes Panel ",
+            "Tumor Panel, Coagulation Panel",
+            "Specific Proteins Panel, Electrolytes Panel , Inflammation Panel , Pancreatitis Panel",
+          ],
+          description:
+            "To guarantee and control the quality of our products, we has been committed to independent research and development of antigens, antibodies, and other reagents and raw materials.",
+          imgSrc: "chemicalReagent1.jpg",
           totalReview: "4",
         },
       ],
@@ -247,10 +304,28 @@ export const siteConfig = {
       subProducts: [
         {
           category: "POCT",
-          itemName: "Q8 PRO",
-          highlightPoints: [],
-          description: "",
+          itemName: "Q8 PRO Fluorescence Immunoassay Analyzer",
+          highlightPoints: [
+            "Disk 25 channels. Multi-language and high efficient",
+            "15-inch HD touch screen. Easy to operation",
+            "External waste card container. Easy to maintenance",
+            "Sample types: serum, plasma and etc. Multi-sample processing",
+          ],
+          description:
+            "Fluorescence based POCT immunoassay system Unique rare earth element fluorescent microsphere labeling technology",
           imgSrc: "/q8pro1.png",
+          totalReview: "4",
+        },
+        {
+          category: "POCT",
+          itemName: "EXR110/120",
+          highlightPoints: [
+            "3 Channels. high efficient",
+            "1 Step Loading. Easy operation and faster results",
+            "8 inch Screen. Intuitive and easy-to-use user interface",
+          ],
+          description: "Fluorescence Immunochromatgraphy Analyzer",
+          imgSrc: "/1201.png",
           totalReview: "4",
         },
       ],
@@ -262,10 +337,65 @@ export const siteConfig = {
       subProducts: [
         {
           category: "Hematology",
-          itemName: "EXI 1800",
-          highlightPoints: [],
-          description: "",
+          itemName: "Z3 Hematology Analyzer",
+          highlightPoints: [
+            "User-friendly Experience",
+            "One screen display of test result",
+            "One button sample aspiration and troubleshooting",
+            "Compact Design",
+          ],
+          description:
+            "A new generation 3-diff hematology analyzer tailored for small laboratory",
           imgSrc: "/exi18001.jpg",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "Z3 CRP Hematology Analyzer",
+          highlightPoints: [
+            "10.4-inch touch screen+ intuitive navigation menu, bring you user-friendly experience",
+            "One button sample aspiration and troubleshooting",
+            "Compact Design",
+          ],
+          description:
+            "Compact and portable design leads to spare more space for small labs, clinics and etc.",
+          imgSrc: "/z3crp1.png",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "Z50 Hematology Analyzer",
+          highlightPoints: [
+            "Tri-angle laser scatter + advanced flow cytometry + chemical dye, create the possibility for better 5-diff WBC differentiation even on samples with high Eosinophil.",
+            "Dedicate channel and optical method for Basophil measurement, have a better performance on basophil counting than traditional impedance method.",
+            "Multiple smart flags to indicate abnormal blood cell differentiation and morphology.",
+          ],
+          description:
+            "An evolved 5-diff hematology analyzer enable all possibilities in the small laboratories",
+          imgSrc: "/z501.png",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "EXZ 6000 Hematology Analyzer",
+          highlightPoints: [
+            "Optimized testing process to reduce manual operations",
+            "High-definition color touch screen",
+            "Capillary blood auto loading, mixing, and sampling",
+            "Auto loading reagent information",
+          ],
+          description:
+            "A powerful assistant for micro-volume whole blood automatic detection",
+          imgSrc: "/exz60001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "Hematology Reagent",
+          highlightPoints: [],
+          description:
+            "These hematology reagents are created by professional R&D team, used with our hematology analyzer.",
+          imgSrc: "/exz60001.png",
           totalReview: "4",
         },
       ],
@@ -277,9 +407,31 @@ export const siteConfig = {
         {
           category: "Hemostasis",
           itemName: "YX 2000",
-          highlightPoints: [],
-          description: "",
+          highlightPoints: [
+            "PT 320 T/H",
+            "Reagent positions onboard. 20 (16 with cooling unit, 4 with room temperature).",
+            "APTT/PT/TT/FIB. 132 T/H",
+            "Light source . LED, slow decay, maintenance-free.",
+            "Sample capacity onboard. 40, and can switch to STAT positions at any time.",
+            "Automatic Sample Loading. Support continuous automatic sample loading.",
+          ],
+          description: "Automated Blood Coagulation Analyzer MOCAP",
           imgSrc: "/yx20001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Hemostasis",
+          itemName: "YX 3000",
+          highlightPoints: [
+            "PT 410 T/H",
+            "Reagent positions onboard. 39 (35 with cooling unit, 4 with room temperature).",
+            "APTT/PT/TT/FIB. 224 T/H",
+            "Light source . LED, slow decay, maintenance-free.",
+            "Sample capacity onboard. 80, and can switch to STAT positions at any time.",
+            "Automatic Sample Loading. Support continuous automatic sample loading.",
+          ],
+          description: "Automated Blood Coagulation Analyzer",
+          imgSrc: "/yx30001.png",
           totalReview: "4",
         },
       ],

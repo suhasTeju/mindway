@@ -95,7 +95,7 @@ export const Footer = () => {
                   <li>
                     <a
                       className="text-black transition hover:text-black/75"
-                      href="/"
+                      href="/contact"
                     >
                       Contact Form
                     </a>
