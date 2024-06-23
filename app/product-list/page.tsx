@@ -1,5 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
+
+import { useEffect, useState, Suspense } from "react";
 import { siteConfig } from "@/config/site";
 import { Product } from "@/components/UI/product";
 import "aos/dist/aos.css";
@@ -7,17 +8,16 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { useSearchParams, usePathname } from "next/navigation";
 
-export default function ProductList() {
+function ProductListContent() {
   const [category, setCategory] = useState<string | null>(null);
   const [catProducts, setCatProducts] = useState([]);
   const searchParams = useSearchParams();
   const pathname = usePathname();
 
   useEffect(() => {
-    if (window?.location?.hash) {
-      setCategory(
-        window?.location?.hash?.toString().replace("#", "").replace("%20", " ")
-      );
+    const hashCategory = window?.location?.hash?.toString().replace("#", "").replace("%20", " ");
+    if (hashCategory) {
+      setCategory(hashCategory);
     }
   }, [searchParams, pathname]);
 
@@ -46,7 +46,6 @@ export default function ProductList() {
   return (
     <div className="my-16">
       <div className="dark:text-white my-8 text-black text-2xl md:text-6xl font-bold">
-        {/* <TypewriterEffectSmooth words={words} /> */}
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-green-600 to-green-500">
           {category} Equipments
         </span>
@@ -60,5 +59,13 @@ export default function ProductList() {
         </div>
       ))}
     </div>
+  );
+}
+
+export default function ProductList() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProductListContent />
+    </Suspense>
   );
 }
