@@ -4,7 +4,7 @@ import { Logo } from "./icons";
 
 export const Footer = () => {
   return (
-    <footer className="bg-white-900 border-y border-grey-100">
+    <footer className="bg-white-900 border-y border-grey-100" data-aos="fade-up">
       <div className="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24 align-center">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>

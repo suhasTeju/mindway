@@ -52,7 +52,7 @@ export const Navbar = () => {
                   {item.label}
                 </NextLink>
               ) : (
-                <div className="flex font-semibold items-center">
+                <div className="flex font-semibold items-center cursor-pointer">
                   {item.label}
                   <span className="ml-1">
                     {megaMenuOpen ? (

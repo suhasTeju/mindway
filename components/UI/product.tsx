@@ -1,4 +1,7 @@
 "use client";
+
+import Link from "next/link";
+
 interface ProductProps {
   category: string;
   itemName: string;
@@ -191,9 +194,11 @@ export const Product = ({
                       />
                     </svg>
                   </button>
-                  <button className="text-center w-full px-5 py-4 rounded-[100px] bg-green-500 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">
-                    Get Quota
-                  </button>
+                  <a href="/contact">
+                    <button className="text-center w-full px-5 py-4 rounded-[100px] bg-green-500 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">
+                      Get Quota
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
