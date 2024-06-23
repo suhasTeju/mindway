@@ -51,10 +51,7 @@ export default function () {
                   </h1>
                   <div className="absolute bottom-0 w-full lg:p-11 p-5">
                     <div className="bg-white rounded-lg p-6 block">
-                      <a
-                        href="tel:+14706011911"
-                        className="flex items-center mb-6"
-                      >
+                      <div className="flex items-center mb-6">
                         <svg
                           width="30"
                           height="30"
@@ -72,15 +69,12 @@ export default function () {
                           />
                         </svg>
                         <a href={`tel:${siteConfig.info.email}`}>
-                        <h5 className="text-blue-500 text-base font-normal leading-6 ml-5">
-                          {siteConfig.info.contact}
-                        </h5>
+                          <h5 className="text-blue-500 text-base font-normal leading-6 ml-5">
+                            {siteConfig.info.contact}
+                          </h5>
                         </a>
-                      </a>
-                      <a
-                        href="mailto:Pagedone1234@gmail.com"
-                        className="flex items-center mb-6"
-                      >
+                      </div>
+                      <div className="flex items-center mb-6">
                         <svg
                           width="30"
                           height="30"
@@ -101,7 +95,7 @@ export default function () {
                             {siteConfig.info.email}
                           </h5>
                         </a>
-                      </a>
+                      </div>
                       <a href="#" className="flex items-center">
                         <svg
                           width="50"
@@ -142,54 +136,27 @@ export default function () {
                   className="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
                   placeholder="Name"
                   name="name"
+                  required={true}
                 />
                 <input
                   type="email"
                   className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
                   placeholder="Email"
                   name="email"
+                  required={true}
                 />
                 <input
                   type="tel"
                   className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
                   placeholder="Phone"
                   name="phone"
+                  required={true}
                 />
-                <div className="mb-10">
-                  <h4 className="text-gray-500 text-lg font-normal leading-7 mb-4">
-                    Preferred method of communication
-                  </h4>
-                  <div className="flex">
-                    <div className="flex items-center mr-11">
-                      <input
-                        id="radio-group-1"
-                        type="radio"
-                        name="communication"
-                        className="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100"
-                      />
-                      <label className="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
-                        <span className="border border-gray-300 rounded-full mr-2 w-4 h-4 ml-2"></span>{" "}
-                        Email
-                      </label>
-                    </div>
-                    <div className="flex items-center">
-                      <input
-                        id="radio-group-2"
-                        type="radio"
-                        name="communication"
-                        className="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100"
-                      />
-                      <label className="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6">
-                        <span className="border border-gray-300 rounded-full mr-2 w-4 h-4 ml-2"></span>{" "}
-                        Phone
-                      </label>
-                    </div>
-                  </div>
-                </div>
                 <textarea
                   className="w-full h-40 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-2xl border border-gray-200 focus:outline-none pl-4 py-4 mb-10 resize-none"
                   placeholder="Message"
                   name="message"
+                  required={true}
                 ></textarea>
                 <button className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-green-700 bg-green-600 shadow-sm">
                   Send

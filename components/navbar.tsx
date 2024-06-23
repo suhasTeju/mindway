@@ -1,5 +1,6 @@
 // components/Navbar.tsx
 "use client";
+
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -13,15 +14,37 @@ import { Link } from "@nextui-org/link";
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+// import { useRouter } from "next/router";
 import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { Logo, WhatsAppLogo } from "@/components/icons";
 import { MegaMenu } from "./UI/mega-menu";
+import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
   const [megaMenuOpen, setMegaMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const handleMenuItemClick = (item) => {
+    if (item.label === "Products") {
+      setMegaMenuOpen(!megaMenuOpen);
+    } else {
+      setMenuOpen(false); // Close the menu when an item is clicked
+    }
+  };
+  const handler = () => {
+    setMenuOpen(false);
+    setTimeout(() => {
+      document.querySelector('button[data-open="true"]')?.click();
+    }, 300);
+  };
 
   return (
     <NextUINavbar maxWidth="xl" position="sticky" className="rounded-xl">
@@ -31,23 +54,25 @@ export const Navbar = () => {
             <Logo width={140} />
           </NextLink>
         </NavbarBrand>
-        <ul className="hidden lg:flex gap-4 justify-start ml-2">
+        <div className="hidden lg:flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem
               key={item.href}
-              onClick={() =>
-                item.label === "Products" && setMegaMenuOpen(!megaMenuOpen)
-              }
+              onClick={() => handleMenuItemClick(item)}
             >
               {!(item.label === "Products") ? (
                 <NextLink
                   className={clsx(
                     linkStyles({ color: "foreground" }),
                     "data-[active=true]:text-primary data-[active=true]:font-semibold",
-                    "font-semibold"
+                    "font-semibold",
+                    {
+                      "pointer-events-none text-green-500":
+                        pathname === item.href,
+                    } // Disable item if current path matches href
                   )}
                   color="foreground"
-                  href={item.label === "Products" ? "/" : item.href}
+                  href={item.href}
                 >
                   {item.label}
                 </NextLink>
@@ -64,10 +89,10 @@ export const Navbar = () => {
                 </div>
               )}
 
-              {item.label === "Products" && megaMenuOpen && <MegaMenu />}
+              {item.label === "Products" && megaMenuOpen && <MegaMenu handler={handler} />}
             </NavbarItem>
           ))}
-        </ul>
+        </div>
       </NavbarContent>
 
       <NavbarContent
@@ -75,7 +100,11 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal aria-label="Github" href={siteConfig.links.whatsapp}>
+          <Link
+            isExternal
+            aria-label="WhatsApp"
+            href={siteConfig.links.whatsapp}
+          >
             <WhatsAppLogo className="text-default-500" />
           </Link>
           <ThemeSwitch className="hidden" />
@@ -83,26 +112,23 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.whatsapp}>
+        <Link isExternal aria-label="WhatsApp" href={siteConfig.links.whatsapp}>
           <WhatsAppLogo className="text-default-500" />
         </Link>
         <ThemeSwitch className="hidden" />
-        <NavbarMenuToggle />
+        <NavbarMenuToggle onPress={toggleMenu} />
       </NavbarContent>
 
-      <NavbarMenu>
+      <NavbarMenu isOpen={menuOpen} onClose={handler}>
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem
               key={`${item}-${index}`}
-              onClick={() =>
-                item.label === "Products" && setMegaMenuOpen(!megaMenuOpen)
-              }
+              onClick={() => handleMenuItemClick(item)}
             >
               {item.label === "Products" ? (
                 <div className="flex items-center font-semibold">
                   {item.label}
-
                   <span className="ml-1">
                     {megaMenuOpen ? (
                       <IconChevronUp size={16} />
@@ -120,9 +146,17 @@ export const Navbar = () => {
                       ? "danger"
                       : "foreground"
                   }
-                  href="#"
+                  href={item.href}
                   size="lg"
-                  className="font-semibold"
+                  className={clsx(
+                    "font-semibold",
+                    {
+                      "pointer-events-none text-green-500":
+                        pathname === item.href,
+                    } // Disable item if current path matches href
+                  )}
+                  onPress={handler} // Ensure the menu closes when a link is clicked
+                  isDisabled={pathname === item.href}
                 >
                   {item.label}
                 </Link>
@@ -130,7 +164,11 @@ export const Navbar = () => {
             </NavbarMenuItem>
           ))}
         </div>
-        <NavbarMenuItem>{megaMenuOpen && <MegaMenu />}</NavbarMenuItem>
+        {megaMenuOpen && (
+          <NavbarMenuItem>
+            <MegaMenu handler={handler} />
+          </NavbarMenuItem>
+        )}
       </NavbarMenu>
     </NextUINavbar>
   );
