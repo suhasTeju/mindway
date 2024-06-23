@@ -48,9 +48,9 @@ export default function () {
                   <h1 className="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
                     Contact us
                   </h1>
-                  <div className="absolute bottom-0 w-full lg:p-11 p-5">
+                  <div className="absolute bottom-0 w-full lg:p-11 p-2">
                     <div className="bg-white rounded-lg p-6 block">
-                      <div className="flex flex-col sm:flex-row items-center mb-6">
+                      <div className="flex flex-col sm:flex-row items-center mb-3">
                         <svg
                           width="30"
                           height="30"
@@ -73,7 +73,7 @@ export default function () {
                           </h5>
                         </a>
                       </div>
-                      <div className="flex flex-col sm:flex-row items-center mb-6">
+                      <div className="flex flex-col sm:flex-row items-center mb-3">
                         <svg
                           width="30"
                           height="30"
@@ -118,7 +118,7 @@ export default function () {
                             strokeWidth="2"
                           />
                         </svg>
-                        <h5 className="text-black text-base font-normal leading-6 sm:ml-6 ml-0">
+                        <h5 className="text-black text-base font-normal text-center leading-6 sm:ml-6 ml-0">
                           {siteConfig.info.address}
                         </h5>
                       </a>
