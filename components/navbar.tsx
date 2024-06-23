@@ -42,6 +42,7 @@ export const Navbar = () => {
   const handler = () => {
     setMenuOpen(false);
     setTimeout(() => {
+      //@ts-ignore
       document.querySelector('button[data-open="true"]')?.click();
     }, 300);
   };
