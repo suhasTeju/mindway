@@ -57,7 +57,7 @@ const Skeleton = ({ url }: Skeleton) => (
     />
   </div>
 );
-const items = [
+export const items = [
   {
     title: "Microbiology",
     description: "Examine and analyze microorganisms with precision.",
