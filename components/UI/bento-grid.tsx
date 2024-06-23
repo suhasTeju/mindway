@@ -26,12 +26,14 @@ export const BentoGridItem = ({
   description,
   header,
   icon,
+  count,
 }: {
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
   header?: React.ReactNode;
   icon?: React.ReactNode;
+  count: number;
 }) => {
   return (
     <div
@@ -51,9 +53,9 @@ export const BentoGridItem = ({
           {description}
         </div>
         <Link href={`/product-list#${title}`}>
-         <div className="font-sans py-2 font-normal text-blue-600 text-xs dark:text-neutral-300">
-            Browse Category
-         </div>
+          <div className="font-sans py-2 font-normal text-blue-600 text-xs dark:text-neutral-300">
+            Browse {count} Product{count > 1 ? "s" : ""}
+          </div>
         </Link>
       </div>
     </div>

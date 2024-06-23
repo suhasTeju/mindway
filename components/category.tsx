@@ -34,7 +34,7 @@ export function Category() {
             description={item.description}
             header={item.header}
             icon={item.icon}
-            
+            count={item.count}
             className={
               i === 3 || i === 6
                 ? "md:col-span-2 border border-gray-100"
@@ -63,6 +63,7 @@ export const items = [
     description: "Examine and analyze microorganisms with precision.",
     header: <Skeleton url="/mReg1.jpg" />,
     icon: <IconVirus className="h-4 w-4 text-green-500" />,
+    count: 1
   },
   {
     title: "Molecular",
@@ -70,24 +71,28 @@ export const items = [
       "Explore the molecular structure and function of biological molecules.",
     header: <Skeleton url="/exm60001.png" />,
     icon: <IconDna className="h-4 w-4 text-green-500" />,
+    count: 7
   },
   {
     title: "CLIA",
     description: "Ensure quality standards for laboratory testing.",
     header: <Skeleton url="exi18001.jpg" />,
     icon: <IconTestTube className="h-4 w-4 text-green-500" />,
+    count: 2
   },
   {
     title: "Clinical Chemistry",
     description: "Analyze chemical processes and substances in the human body.",
     header: <Skeleton url="exc4001.png" />,
     icon: <IconChemical className="h-4 w-4 text-green-500" />,
+    count: 3
   },
   {
     title: "POCT",
     description: "Perform medical diagnostic testing at the point of care.",
     header: <Skeleton url="q8pro1.png" />,
     icon: <IconHeartbeat className="h-4 w-4 text-green-500" />,
+    count: 2
   },
   {
     title: "Hematology",
@@ -95,12 +100,14 @@ export const items = [
       "Examine blood, blood diseases, and the organs involved in forming blood.",
     header: <Skeleton url="exi18001.jpg" />,
     icon: <IconBone className="h-4 w-4 text-green-500" />,
+    count: 5
   },
   {
     title: "Hemostasis",
     description: "Study the process of blood clotting and its disorders.",
     header: <Skeleton url="yx20001.png" />,
     icon: <IconDroplet className="h-4 w-4 text-green-500" />,
+    count: 2
   },
 
   {
@@ -109,6 +116,7 @@ export const items = [
       "Investigate materials used in medical devices and prosthetics.",
     header: <Skeleton url="bioreagent1.jpg" />,
     icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
+    count: 1
   },
   {
     title: "Urinalysis",
@@ -116,5 +124,6 @@ export const items = [
       "Test and analyze urine to diagnose various medical conditions.",
     header: <Skeleton url="u36001.png" />,
     icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
+    count: 1
   },
 ];
