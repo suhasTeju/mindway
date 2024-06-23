@@ -116,10 +116,10 @@ export const Navbar = () => {
           <WhatsAppLogo className="text-default-500" />
         </Link>
         <ThemeSwitch className="hidden" />
-        <NavbarMenuToggle onPress={toggleMenu} />
+        <NavbarMenuToggle onClick={toggleMenu} />
       </NavbarContent>
 
-      <NavbarMenu isOpen={menuOpen} onClose={handler}>
+      <NavbarMenu>
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem
@@ -155,7 +155,7 @@ export const Navbar = () => {
                         pathname === item.href,
                     } // Disable item if current path matches href
                   )}
-                  onPress={handler} // Ensure the menu closes when a link is clicked
+                  onClick={handler} // Ensure the menu closes when a link is clicked
                   isDisabled={pathname === item.href}
                 >
                   {item.label}

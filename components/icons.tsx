@@ -15,6 +15,7 @@ export const Logo: React.FC<IconSvgProps> = ({
     alt="mindlab"
     width={(width as number) || size}
     height={(height as number) || size}
+    loading="eager" 
   />
 );
 

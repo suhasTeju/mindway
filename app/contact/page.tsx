@@ -1,5 +1,4 @@
 "use client";
-import { Logo } from "@/components/icons";
 import { siteConfig } from "@/config/site";
 
 export default function () {
@@ -30,7 +29,7 @@ export default function () {
     const whatsappURL = `https://wa.me/+919731370710?text=${encodedText}`;
 
     // Redirect user to WhatsApp
-    window.location.href = whatsappURL;
+    window?.open(whatsappURL, "_blank")
   };
 
   return (
