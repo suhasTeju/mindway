@@ -10,6 +10,7 @@ interface FeatureCardProps {
   subtitle: string;
   link: string;
   alt: string;
+  customHeight?: boolean;
 }
 
 export function FeatureCard({
@@ -18,6 +19,7 @@ export function FeatureCard({
   link,
   src,
   alt,
+  customHeight
 }: FeatureCardProps) {
   const handler = () => {
     // window.open(link, "_self");
@@ -28,9 +30,12 @@ export function FeatureCard({
         <Image
           src={src}
           alt={alt}
-          height="250"
           width="400"
+          height="250"
           className="object-contain"
+          style={{
+            height: customHeight ? "130px"  : "auto"
+          }}
         />
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
           {title}
@@ -41,14 +46,14 @@ export function FeatureCard({
         </p>
         <button
           onClick={handler}
-          className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 mt-4 text-xs font-bold dark:bg-zinc-800"
+          className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 mt-4 text-xs font-bold bg-black-800"
         >
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-4 py-2 text-white">
-            Contact Now
+            Get Quota
           </span>
         </button>
       </BackgroundGradient>
-      <div style={{position: "absolute" , top: 20, zIndex: 99, left: 20}}>
+      <div style={{position: "absolute" , top: 20, zIndex: 99, right: 20}}>
       <button className="px-2 rounded-xl border border-neutral-500 text-black-300 bg-white hover:bg-gray-100 transition duration-200">
         Featured
       </button>

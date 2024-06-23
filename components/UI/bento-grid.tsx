@@ -1,4 +1,5 @@
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -49,6 +50,11 @@ export const BentoGridItem = ({
         <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
           {description}
         </div>
+        <Link href={`/product-list#${title}`}>
+         <div className="font-sans py-2 font-normal text-blue-600 text-xs dark:text-neutral-300">
+            Browse Category
+         </div>
+        </Link>
       </div>
     </div>
   );

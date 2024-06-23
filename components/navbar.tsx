@@ -14,7 +14,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
 import { useState } from "react";
-import { IconChevronDown, IconChevronUp } from '@tabler/icons-react';
+import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { Logo, WhatsAppLogo } from "@/components/icons";
@@ -39,23 +39,32 @@ export const Navbar = () => {
                 item.label === "Products" && setMegaMenuOpen(!megaMenuOpen)
               }
             >
-              <NextLink
-                className={clsx(
-                  linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-semibold",
-                  "font-semibold"
-                )}
-                color="foreground"
-                href={item.label === "Products" ? "/" :item.href}
-              >
-                {item.label} {item.label === "Products" && (
-                <span className="ml-1">
-                    {megaMenuOpen ? <IconChevronUp size={16} /> : <IconChevronDown size={16} />}
+              {!(item.label === "Products") ? (
+                <NextLink
+                  className={clsx(
+                    linkStyles({ color: "foreground" }),
+                    "data-[active=true]:text-primary data-[active=true]:font-semibold",
+                    "font-semibold"
+                  )}
+                  color="foreground"
+                  href={item.label === "Products" ? "/" : item.href}
+                >
+                  {item.label}
+                </NextLink>
+              ) : (
+                <div className="flex font-semibold items-center">
+                  {item.label}
+                  <span className="ml-1">
+                    {megaMenuOpen ? (
+                      <IconChevronUp size={16} />
+                    ) : (
+                      <IconChevronDown size={16} />
+                    )}
                   </span>
+                </div>
               )}
-              </NextLink>
+
               {item.label === "Products" && megaMenuOpen && <MegaMenu />}
-              
             </NavbarItem>
           ))}
         </ul>
@@ -95,7 +104,11 @@ export const Navbar = () => {
                   {item.label}
 
                   <span className="ml-1">
-                    {megaMenuOpen ? <IconChevronUp size={16} /> : <IconChevronDown size={16} />}
+                    {megaMenuOpen ? (
+                      <IconChevronUp size={16} />
+                    ) : (
+                      <IconChevronDown size={16} />
+                    )}
                   </span>
                 </div>
               ) : (

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { FeatureCard } from "./UI/featureCard";
 
@@ -28,11 +28,10 @@ const featuredProductList = [
   },
 ];
 
-export const 
-FeatureProduct = () => {
+export const FeatureProduct = () => {
   return (
     <div className="flex-column" data-aos="fade-up">
-      <div className="dark:text-white text-black text-2xl md:text-6xl font-bold mt-4">
+      <div className="dark:text-white text-black text-2xl md:text-6xl font-bold my-16">
         {/* <TypewriterEffectSmooth words={words} /> */}
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-green-600 to-green-500">
           Featured Products
@@ -40,9 +39,9 @@ FeatureProduct = () => {
       </div>
 
       <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 justify-center">
-        {featuredProductList.map((item) => (
+        {featuredProductList.map((item, index) => (
           <div key={item.alt} className="p-4">
-            <FeatureCard {...item} />
+            <FeatureCard {...item} customHeight={index == 0} />
           </div>
         ))}
       </div>

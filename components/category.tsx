@@ -19,7 +19,7 @@ export function Category() {
   return (
     <div>
       <div data-aos="fade-up" className="flex justify-center items-center my-6">
-        <div className="dark:text-white text-black text-2xl md:text-6xl font-bold">
+        <div className="dark:text-white text-black text-2xl md:text-6xl font-bold my-16">
           {/* <TypewriterEffectSmooth words={words} /> */}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-green-600 to-green-500">
             Browse by category
@@ -61,7 +61,7 @@ export const items = [
   {
     title: "Microbiology",
     description: "Examine and analyze microorganisms with precision.",
-    header: <Skeleton url="/exs2001.png" />,
+    header: <Skeleton url="/mReg1.jpg" />,
     icon: <IconVirus className="h-4 w-4 text-green-500" />,
   },
   {

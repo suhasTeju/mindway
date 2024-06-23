@@ -7,12 +7,12 @@ import { Category } from "@/components/category";
 import { Hero } from "@/components/hero";
 import { FeatureProduct } from "@/components/featuredProduct";
 import dynamic from "next/dynamic";
+import { Stats } from "./UI/stats";
 
 // Dynamically import the Map component with no SSR
-const Map = dynamic(() => import('@/components/UI/map'), { ssr: false });
+const Map = dynamic(() => import("@/components/UI/map"), { ssr: false });
 
 export const LandingPage = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration
@@ -30,6 +30,10 @@ export const LandingPage = () => {
       </div>
       <div className="flex gap-3">
         <Category />
+      </div>
+
+      <div className="flex gap-3">
+        <Stats />
       </div>
 
       <div className="mt-8 w-full" data-aos="fade-up">
