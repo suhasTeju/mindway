@@ -195,7 +195,7 @@ export const Product = ({
                     </svg>
                   </button>
                   <a href="/contact">
-                    <button className="text-center w-full px-5 py-4 rounded-[100px] bg-green-500 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">
+                    <button className="text-center w-full px-5 py-4 rounded-[100px] bg-green-600 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">
                       Get Quota
                     </button>
                   </a>
