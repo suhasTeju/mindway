@@ -467,6 +467,18 @@ export const siteConfig = {
           imgSrc: "/u36001.png",
           totalReview: "4",
         },
+        {
+          category: "Urinalysis",
+          itemName: "U 2610/1600",
+          highlightPoints: [
+            "Intelligent: If the chemistry results are negative, no microscopic analysis is performed",
+            "Flexible: No need for a connection bridge to connect machine",
+            "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection"
+          ],
+          description: "Urine Sediment Analyzer Precise and effcient",
+          imgSrc: "/u26101.png",
+          totalReview: "4",
+        },
       ],
     },
   ],
@@ -785,6 +797,18 @@ export const siteConfig = {
       highlightPoints: [],
       description: "",
       imgSrc: "/bioreagent1.jpg",
+      totalReview: "4",
+    },
+    {
+      category: "Urinalysis",
+      itemName: "U 2610/1600",
+      highlightPoints: [
+        "Intelligent: If the chemistry results are negative, no microscopic analysis is performed",
+        "Flexible: No need for a connection bridge to connect machine",
+        "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection"
+      ],
+      description: "Urine Sediment Analyzer Precise and effcient",
+      imgSrc: "/u26101.png",
       totalReview: "4",
     },
   ]

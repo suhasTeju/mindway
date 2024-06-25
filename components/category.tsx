@@ -124,6 +124,6 @@ export const items = [
       "Test and analyze urine to diagnose various medical conditions.",
     header: <Skeleton url="u36001.png" />,
     icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
-    count: 1
+    count: 3
   },
 ];
