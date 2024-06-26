@@ -7,6 +7,9 @@ import {
   IconDroplet,
   IconBone,
   IconMicroscope,
+  IconBrandAsana,
+  IconBolt,
+  IconLayersIntersect,
 } from "@tabler/icons-react";
 import { BentoGrid, BentoGridItem } from "./UI/bento-grid";
 import { IconChemical, IconTestTube } from "./icons";
@@ -59,11 +62,57 @@ const Skeleton = ({ url }: Skeleton) => (
 );
 export const items = [
   {
-    title: "Microbiology",
-    description: "Examine and analyze microorganisms with precision.",
-    header: <Skeleton url="/mReg1.jpg" />,
-    icon: <IconVirus className="h-4 w-4 text-green-500" />,
-    count: 1
+    title: "Hematology",
+    description:
+      "Examine blood, blood diseases, and the organs involved in forming blood.",
+    header: <Skeleton url="exi18001.jpg" />,
+    icon: <IconBone className="h-4 w-4 text-green-500" />,
+    count: 5
+  },
+  {
+    title: "Clinical Chemistry",
+    description: "Analyze chemical processes and substances in the human body.",
+    header: <Skeleton url="exc4001.png" />,
+    icon: <IconChemical className="h-4 w-4 text-green-500" />,
+    count: 3
+  },
+  {
+    title: "CLIA",
+    description: "Ensure quality standards for laboratory testing.",
+    header: <Skeleton url="exi18001.jpg" />,
+    icon: <IconTestTube className="h-4 w-4 text-green-500" />,
+    count: 2
+  },
+  {
+    title: "POCT",
+    description: "Perform medical diagnostic testing at the point of care.",
+    header: <Skeleton url="q8pro1.png" />,
+    icon: <IconHeartbeat className="h-4 w-4 text-green-500" />,
+    count: 2
+  },
+  {
+    title: "Urinalysis",
+    description:
+      "Test and analyze urine to diagnose various medical conditions.",
+    header: <Skeleton url="u36001.png" />,
+    icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
+    count: 3
+  },
+  {
+    title: "Asterial Blood Gas",
+    description:
+      "works by analysing a small blood sample taken from an artery",
+    header: <Skeleton url="st200cc1.png" />,
+    icon: <IconBrandAsana className="h-4 w-4 text-green-500" />,
+    count: 4
+  },
+  {
+    title: "Electrolyte",
+    description:
+      "works by analysing a small blood sample taken from an artery",
+    header: <Skeleton url="u36001.png" />,
+    icon: <IconBolt className="h-4 w-4 text-green-500" />,
+    count: 3
   },
   {
     title: "Molecular",
@@ -74,34 +123,13 @@ export const items = [
     count: 7
   },
   {
-    title: "CLIA",
-    description: "Ensure quality standards for laboratory testing.",
-    header: <Skeleton url="exi18001.jpg" />,
-    icon: <IconTestTube className="h-4 w-4 text-green-500" />,
-    count: 2
+    title: "Microbiology",
+    description: "Examine and analyze microorganisms with precision.",
+    header: <Skeleton url="/mReg1.jpg" />,
+    icon: <IconVirus className="h-4 w-4 text-green-500" />,
+    count: 1
   },
-  {
-    title: "Clinical Chemistry",
-    description: "Analyze chemical processes and substances in the human body.",
-    header: <Skeleton url="exc4001.png" />,
-    icon: <IconChemical className="h-4 w-4 text-green-500" />,
-    count: 3
-  },
-  {
-    title: "POCT",
-    description: "Perform medical diagnostic testing at the point of care.",
-    header: <Skeleton url="q8pro1.png" />,
-    icon: <IconHeartbeat className="h-4 w-4 text-green-500" />,
-    count: 2
-  },
-  {
-    title: "Hematology",
-    description:
-      "Examine blood, blood diseases, and the organs involved in forming blood.",
-    header: <Skeleton url="exi18001.jpg" />,
-    icon: <IconBone className="h-4 w-4 text-green-500" />,
-    count: 5
-  },
+
   {
     title: "Hemostasis",
     description: "Study the process of blood clotting and its disorders.",
@@ -119,11 +147,12 @@ export const items = [
     count: 1
   },
   {
-    title: "Urinalysis",
+    title: "Others",
     description:
-      "Test and analyze urine to diagnose various medical conditions.",
-    header: <Skeleton url="u36001.png" />,
-    icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
-    count: 3
+      "Laboratory consumeable and others",
+    header: <Skeleton url="bioreagent1.jpg" />,
+    icon: <IconLayersIntersect className="h-4 w-4 text-green-500" />,
+    count: 1
   },
+ 
 ];

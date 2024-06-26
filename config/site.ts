@@ -17,7 +17,6 @@ export const siteConfig = {
       label: "Products",
       href: "/products",
     },
-    
   ],
   navMenuItems: [
     {
@@ -32,7 +31,6 @@ export const siteConfig = {
       label: "Products",
       href: "/products",
     },
-    
   ],
   links: {
     github: "https://github.com/nextui-org/nextui",
@@ -81,38 +79,227 @@ export const siteConfig = {
 
   productCategory: [
     {
-      title: "Microbiology",
-      description: "Examine and analyze microorganisms with precision.",
+      title: "Hematology",
+      description:
+        "Examine blood, blood diseases, and the organs involved in forming blood.",
       subProducts: [
-        // {
-        //   category: "Microbiology",
-        //   itemName: "EXS 200",
-        //   highlightPoints: [
-        //     "Rapid Identification Tool ＜1min Target - in/out time 12 min 96 spots tests at one plate",
-        //     "High-quality structure and hardware technology",
-        //     "Convenient Software Operaion",
-        //     "Rich strains database"
-        //   ],
-        //   description: "Rapid and convenient identification tool for bacteria",
-        //   imgSrc : "/exs2001.png",
-        //   totalReview: "4"
-        // },
         {
-          category: "Microbiology",
-          itemName: "Microbiology Reagents",
+          category: "Hematology",
+          itemName: "Z3 Hematology Analyzer",
           highlightPoints: [
-            "Sample Treatment Matrix Solution",
-            "Mold Sample Pretreatment Kit",
-            "Blood Culture Positive Sample Pretreatment Kit",
-            "Microbe Sample Pretreatment Kit",
+            "User-friendly Experience",
+            "One screen display of test result",
+            "One button sample aspiration and troubleshooting",
+            "Compact Design",
           ],
           description:
-            "Several pretreatment reagent kits are used to speed up the bacteria pretreatment procedure and improve the accuracy of MALDI-TOF identification results",
-          imgSrc: "/mReg1.jpg",
+            "A new generation 3-diff hematology analyzer tailored for small laboratory",
+          imgSrc: "/exi18001.jpg",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "Z3 CRP Hematology Analyzer",
+          highlightPoints: [
+            "10.4-inch touch screen+ intuitive navigation menu, bring you user-friendly experience",
+            "One button sample aspiration and troubleshooting",
+            "Compact Design",
+          ],
+          description:
+            "Compact and portable design leads to spare more space for small labs, clinics and etc.",
+          imgSrc: "/z3crp1.png",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "Z50 Hematology Analyzer",
+          highlightPoints: [
+            "Tri-angle laser scatter + advanced flow cytometry + chemical dye, create the possibility for better 5-diff WBC differentiation even on samples with high Eosinophil.",
+            "Dedicate channel and optical method for Basophil measurement, have a better performance on basophil counting than traditional impedance method.",
+            "Multiple smart flags to indicate abnormal blood cell differentiation and morphology.",
+          ],
+          description:
+            "An evolved 5-diff hematology analyzer enable all possibilities in the small laboratories",
+          imgSrc: "/z501.png",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "EXZ 6000 Hematology Analyzer",
+          highlightPoints: [
+            "Optimized testing process to reduce manual operations",
+            "High-definition color touch screen",
+            "Capillary blood auto loading, mixing, and sampling",
+            "Auto loading reagent information",
+          ],
+          description:
+            "A powerful assistant for micro-volume whole blood automatic detection",
+          imgSrc: "/exz60001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Hematology",
+          itemName: "Hematology Reagent",
+          highlightPoints: [],
+          description:
+            "These hematology reagents are created by professional R&D team, used with our hematology analyzer.",
+          imgSrc: "/exz60001.png",
           totalReview: "4",
         },
       ],
     },
+    {
+      title: "Clinical Chemistry",
+      description:
+        "Analyze chemical processes and substances in the human body.",
+      subProducts: [
+        {
+          category: "Clinical Chemistry",
+          itemName: "EXC 400",
+          highlightPoints: [
+            "Constant 400 T/H offers a higher efficiency",
+            "Bilateral LIS interface allows convenient results transfer",
+            "Over 100 original reagents and quality controls ensure reliable and traceable results",
+            "Minimum reaction volume and lower water consumption result in cost-effectiveness",
+          ],
+          description:
+            "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
+          imgSrc: "exc4001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Clinical Chemistry",
+          itemName: "EXC 200",
+          highlightPoints: [
+            "Integrated design combining operation system and analyzer saves more space for small labs, clinics and etc.",
+            "Colorful touch screen and intuitive navigation menu offer user-friendly experience",
+            "Minimum reaction volume 90μL and lower water consumption result in cost-effectiveness",
+            "Bilateral LIS interface allows convenient results transfer",
+            "Over 100 original reagents and quality controls ensure reliable and traceable results",
+          ],
+          description:
+            "Chemistry Analyzer An automated desktop chemistry analyzer dedicated for small healthcare institution",
+          imgSrc: "exc2001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Clinical Chemistry",
+          itemName: "Chemical Reagent",
+          //Hepatic Panel Renal Panel Lipids Panel Cardiac & Cardiovascular Panel Diabetes Panel Tumor Panel Coagulation Panel
+          highlightPoints: [
+            "Hepatic Panel , Renal Panel,  Lipids Panel , Cardiac & Cardiovascular Panel,  Diabetes Panel ",
+            "Tumor Panel, Coagulation Panel",
+            "Specific Proteins Panel, Electrolytes Panel , Inflammation Panel , Pancreatitis Panel",
+          ],
+          description:
+            "To guarantee and control the quality of our products, we has been committed to independent research and development of antigens, antibodies, and other reagents and raw materials.",
+          imgSrc: "chemicalReagent1.jpg",
+          totalReview: "4",
+        },
+      ],
+    },
+    {
+      title: "CLIA",
+      description: "Ensure quality standards for laboratory testing.",
+      subProducts: [
+        {
+          category: "CLIA",
+          itemName: "EXI 1800",
+          highlightPoints: [
+            "Magnetic separation technical patent",
+            "Innovative non-contact vortex mixing technology",
+            "Unique constant temperature incubation system",
+            "Multi-module integration technology Up to 351 T/H m²",
+          ],
+          description:
+            "Technical innovation, more accurate resullts Magnetic separation patent Non-contact vortex mixing Multi-module integration",
+          imgSrc: "/exi18001.jpg",
+          totalReview: "4",
+        },
+        {
+          category: "CLIA",
+          itemName: "Chemiluminescence",
+          //Cardiac Inflammation Thyroid Fertility Tumor markers Diabetes Bone metabolism Gastric Anemia
+          highlightPoints: [
+            "Cardiac",
+            "Inflammation",
+            "Thyroid",
+            "Fertility",
+            "Tumor markers",
+          ],
+          description:
+            "The test menu covers thyroid, fertility, tumor markers, cardiac, inflammation, diabetes, etc.; Constantly innovating, fully meeting the needs of clinical laboratories .",
+          imgSrc: "/Chemiluminescence1.jpg",
+          totalReview: "4",
+        },
+      ],
+    },
+    {
+      title: "POCT",
+      description: "Perform medical diagnostic testing at the point of care.",
+      subProducts: [
+        {
+          category: "POCT",
+          itemName: "Q8 PRO Fluorescence Immunoassay Analyzer",
+          highlightPoints: [
+            "Disk 25 channels. Multi-language and high efficient",
+            "15-inch HD touch screen. Easy to operation",
+            "External waste card container. Easy to maintenance",
+            "Sample types: serum, plasma and etc. Multi-sample processing",
+          ],
+          description:
+            "Fluorescence based POCT immunoassay system Unique rare earth element fluorescent microsphere labeling technology",
+          imgSrc: "/q8pro1.png",
+          totalReview: "4",
+        },
+        {
+          category: "POCT",
+          itemName: "EXR110/120",
+          highlightPoints: [
+            "3 Channels. high efficient",
+            "1 Step Loading. Easy operation and faster results",
+            "8 inch Screen. Intuitive and easy-to-use user interface",
+          ],
+          description: "Fluorescence Immunochromatgraphy Analyzer",
+          imgSrc: "/1201.png",
+          totalReview: "4",
+        },
+      ],
+    },
+    {
+      title: "Urinalysis",
+      description:
+        "Test and analyze urine to diagnose various medical conditions.",
+      subProducts: [
+        {
+          category: "Urinalysis",
+          itemName: "U 3600",
+          highlightPoints: [],
+          description: "",
+          imgSrc: "/u36001.png",
+          totalReview: "4",
+        },
+        {
+          category: "Urinalysis",
+          itemName: "U 2610/1600",
+          highlightPoints: [
+            "Intelligent: If the chemistry results are negative, no microscopic analysis is performed",
+            "Flexible: No need for a connection bridge to connect machine",
+            "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection",
+          ],
+          description: "Urine Sediment Analyzer Precise and effcient",
+          imgSrc: "/u26101.png",
+          totalReview: "4",
+        },
+      ],
+    },
+    {
+      title: "Asterial Blood Gas",
+      description:
+        "works by analysing a small blood sample taken from an artery",
+      subProducts: [],
+    },
+
     {
       title: "Molecular",
       description:
@@ -214,194 +401,7 @@ export const siteConfig = {
         },
       ],
     },
-    {
-      title: "CLIA",
-      description: "Ensure quality standards for laboratory testing.",
-      subProducts: [
-        {
-          category: "CLIA",
-          itemName: "EXI 1800",
-          highlightPoints: [
-            "Magnetic separation technical patent",
-            "Innovative non-contact vortex mixing technology",
-            "Unique constant temperature incubation system",
-            "Multi-module integration technology Up to 351 T/H m²",
-          ],
-          description:
-            "Technical innovation, more accurate resullts Magnetic separation patent Non-contact vortex mixing Multi-module integration",
-          imgSrc: "/exi18001.jpg",
-          totalReview: "4",
-        },
-        {
-          category: "CLIA",
-          itemName: "Chemiluminescence",
-          //Cardiac Inflammation Thyroid Fertility Tumor markers Diabetes Bone metabolism Gastric Anemia
-          highlightPoints: [
-            "Cardiac",
-            "Inflammation",
-            "Thyroid",
-            "Fertility",
-            "Tumor markers",
-          ],
-          description:
-            "The test menu covers thyroid, fertility, tumor markers, cardiac, inflammation, diabetes, etc.; Constantly innovating, fully meeting the needs of clinical laboratories .",
-          imgSrc: "/Chemiluminescence1.jpg",
-          totalReview: "4",
-        },
-      ],
-    },
-    {
-      title: "Clinical Chemistry",
-      description:
-        "Analyze chemical processes and substances in the human body.",
-      subProducts: [
-        {
-          category: "Clinical Chemistry",
-          itemName: "EXC 400",
-          highlightPoints: [
-            "Constant 400 T/H offers a higher efficiency",
-            "Bilateral LIS interface allows convenient results transfer",
-            "Over 100 original reagents and quality controls ensure reliable and traceable results",
-            "Minimum reaction volume and lower water consumption result in cost-effectiveness",
-          ],
-          description:
-            "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
-          imgSrc: "exc4001.png",
-          totalReview: "4",
-        },
-        {
-          category: "Clinical Chemistry",
-          itemName: "EXC 200",
-          highlightPoints: [
-            "Integrated design combining operation system and analyzer saves more space for small labs, clinics and etc.",
-            "Colorful touch screen and intuitive navigation menu offer user-friendly experience",
-            "Minimum reaction volume 90μL and lower water consumption result in cost-effectiveness",
-            "Bilateral LIS interface allows convenient results transfer",
-            "Over 100 original reagents and quality controls ensure reliable and traceable results",
-          ],
-          description:
-            "Chemistry Analyzer An automated desktop chemistry analyzer dedicated for small healthcare institution",
-          imgSrc: "exc2001.png",
-          totalReview: "4",
-        },
-        {
-          category: "Clinical Chemistry",
-          itemName: "Chemical Reagent",
-          //Hepatic Panel Renal Panel Lipids Panel Cardiac & Cardiovascular Panel Diabetes Panel Tumor Panel Coagulation Panel
-          highlightPoints: [
-            "Hepatic Panel , Renal Panel,  Lipids Panel , Cardiac & Cardiovascular Panel,  Diabetes Panel ",
-            "Tumor Panel, Coagulation Panel",
-            "Specific Proteins Panel, Electrolytes Panel , Inflammation Panel , Pancreatitis Panel",
-          ],
-          description:
-            "To guarantee and control the quality of our products, we has been committed to independent research and development of antigens, antibodies, and other reagents and raw materials.",
-          imgSrc: "chemicalReagent1.jpg",
-          totalReview: "4",
-        },
-      ],
-    },
-    {
-      title: "POCT",
-      description: "Perform medical diagnostic testing at the point of care.",
-      subProducts: [
-        {
-          category: "POCT",
-          itemName: "Q8 PRO Fluorescence Immunoassay Analyzer",
-          highlightPoints: [
-            "Disk 25 channels. Multi-language and high efficient",
-            "15-inch HD touch screen. Easy to operation",
-            "External waste card container. Easy to maintenance",
-            "Sample types: serum, plasma and etc. Multi-sample processing",
-          ],
-          description:
-            "Fluorescence based POCT immunoassay system Unique rare earth element fluorescent microsphere labeling technology",
-          imgSrc: "/q8pro1.png",
-          totalReview: "4",
-        },
-        {
-          category: "POCT",
-          itemName: "EXR110/120",
-          highlightPoints: [
-            "3 Channels. high efficient",
-            "1 Step Loading. Easy operation and faster results",
-            "8 inch Screen. Intuitive and easy-to-use user interface",
-          ],
-          description: "Fluorescence Immunochromatgraphy Analyzer",
-          imgSrc: "/1201.png",
-          totalReview: "4",
-        },
-      ],
-    },
-    {
-      title: "Hematology",
-      description:
-        "Examine blood, blood diseases, and the organs involved in forming blood.",
-      subProducts: [
-        {
-          category: "Hematology",
-          itemName: "Z3 Hematology Analyzer",
-          highlightPoints: [
-            "User-friendly Experience",
-            "One screen display of test result",
-            "One button sample aspiration and troubleshooting",
-            "Compact Design",
-          ],
-          description:
-            "A new generation 3-diff hematology analyzer tailored for small laboratory",
-          imgSrc: "/exi18001.jpg",
-          totalReview: "4",
-        },
-        {
-          category: "Hematology",
-          itemName: "Z3 CRP Hematology Analyzer",
-          highlightPoints: [
-            "10.4-inch touch screen+ intuitive navigation menu, bring you user-friendly experience",
-            "One button sample aspiration and troubleshooting",
-            "Compact Design",
-          ],
-          description:
-            "Compact and portable design leads to spare more space for small labs, clinics and etc.",
-          imgSrc: "/z3crp1.png",
-          totalReview: "4",
-        },
-        {
-          category: "Hematology",
-          itemName: "Z50 Hematology Analyzer",
-          highlightPoints: [
-            "Tri-angle laser scatter + advanced flow cytometry + chemical dye, create the possibility for better 5-diff WBC differentiation even on samples with high Eosinophil.",
-            "Dedicate channel and optical method for Basophil measurement, have a better performance on basophil counting than traditional impedance method.",
-            "Multiple smart flags to indicate abnormal blood cell differentiation and morphology.",
-          ],
-          description:
-            "An evolved 5-diff hematology analyzer enable all possibilities in the small laboratories",
-          imgSrc: "/z501.png",
-          totalReview: "4",
-        },
-        {
-          category: "Hematology",
-          itemName: "EXZ 6000 Hematology Analyzer",
-          highlightPoints: [
-            "Optimized testing process to reduce manual operations",
-            "High-definition color touch screen",
-            "Capillary blood auto loading, mixing, and sampling",
-            "Auto loading reagent information",
-          ],
-          description:
-            "A powerful assistant for micro-volume whole blood automatic detection",
-          imgSrc: "/exz60001.png",
-          totalReview: "4",
-        },
-        {
-          category: "Hematology",
-          itemName: "Hematology Reagent",
-          highlightPoints: [],
-          description:
-            "These hematology reagents are created by professional R&D team, used with our hematology analyzer.",
-          imgSrc: "/exz60001.png",
-          totalReview: "4",
-        },
-      ],
-    },
+
     {
       title: "Hemostasis",
       description: "Study the process of blood clotting and its disorders.",
@@ -438,7 +438,39 @@ export const siteConfig = {
         },
       ],
     },
-
+    {
+      title: "Microbiology",
+      description: "Examine and analyze microorganisms with precision.",
+      subProducts: [
+        // {
+        //   category: "Microbiology",
+        //   itemName: "EXS 200",
+        //   highlightPoints: [
+        //     "Rapid Identification Tool ＜1min Target - in/out time 12 min 96 spots tests at one plate",
+        //     "High-quality structure and hardware technology",
+        //     "Convenient Software Operaion",
+        //     "Rich strains database"
+        //   ],
+        //   description: "Rapid and convenient identification tool for bacteria",
+        //   imgSrc : "/exs2001.png",
+        //   totalReview: "4"
+        // },
+        {
+          category: "Microbiology",
+          itemName: "Microbiology Reagents",
+          highlightPoints: [
+            "Sample Treatment Matrix Solution",
+            "Mold Sample Pretreatment Kit",
+            "Blood Culture Positive Sample Pretreatment Kit",
+            "Microbe Sample Pretreatment Kit",
+          ],
+          description:
+            "Several pretreatment reagent kits are used to speed up the bacteria pretreatment procedure and improve the accuracy of MALDI-TOF identification results",
+          imgSrc: "/mReg1.jpg",
+          totalReview: "4",
+        },
+      ],
+    },
     {
       title: "Biomaterial",
       description:
@@ -450,33 +482,6 @@ export const siteConfig = {
           highlightPoints: [],
           description: "",
           imgSrc: "/bioreagent1.jpg",
-          totalReview: "4",
-        },
-      ],
-    },
-    {
-      title: "Urinalysis",
-      description:
-        "Test and analyze urine to diagnose various medical conditions.",
-      subProducts: [
-        {
-          category: "Urinalysis",
-          itemName: "U 3600",
-          highlightPoints: [],
-          description: "",
-          imgSrc: "/u36001.png",
-          totalReview: "4",
-        },
-        {
-          category: "Urinalysis",
-          itemName: "U 2610/1600",
-          highlightPoints: [
-            "Intelligent: If the chemistry results are negative, no microscopic analysis is performed",
-            "Flexible: No need for a connection bridge to connect machine",
-            "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection"
-          ],
-          description: "Urine Sediment Analyzer Precise and effcient",
-          imgSrc: "/u26101.png",
           totalReview: "4",
         },
       ],
@@ -805,11 +810,11 @@ export const siteConfig = {
       highlightPoints: [
         "Intelligent: If the chemistry results are negative, no microscopic analysis is performed",
         "Flexible: No need for a connection bridge to connect machine",
-        "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection"
+        "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection",
       ],
       description: "Urine Sediment Analyzer Precise and effcient",
       imgSrc: "/u26101.png",
       totalReview: "4",
     },
-  ]
+  ],
 };
