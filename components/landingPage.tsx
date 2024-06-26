@@ -3,11 +3,12 @@ import "aos/dist/aos.css";
 //@ts-ignore
 import AOS from "aos";
 import { useEffect } from "react";
-import { Category } from "@/components/category";
 import { Hero } from "@/components/hero";
-import { FeatureProduct } from "@/components/featuredProduct";
 import dynamic from "next/dynamic";
 import { Stats } from "./UI/stats";
+import ImageCarousel from "./UI/image-slider";
+import { Category } from "./category";
+import { Certified } from "./certified";
 
 // Dynamically import the Map component with no SSR
 const Map = dynamic(() => import("@/components/UI/map"), { ssr: false });
@@ -25,14 +26,17 @@ export const LandingPage = () => {
       <div className="inline-block mb-4">
         <Hero />
       </div>
+      <div>
+        <Certified />
+      </div>
       <div className="flex gap-3">
-        <FeatureProduct />
+        <ImageCarousel />
       </div>
       <div className="flex gap-3">
         <Category />
       </div>
 
-      <div className="flex gap-3">
+      <div className="flex gap-3 w-full">
         <Stats />
       </div>
 

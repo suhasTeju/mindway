@@ -1,5 +1,6 @@
 "use client";
 
+import { IconFileDownload } from "@tabler/icons-react";
 import Link from "next/link";
 
 interface ProductProps {
@@ -21,8 +22,8 @@ export const Product = ({
 }: ProductProps) => {
   return (
     <>
-      <section className="relative sm:py-8 py-16" data-aos="fade-up">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-0">
+      <section className="relative sm:py-8 py-10" data-aos="fade-up">
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-0 bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] py-6 rounded-xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mx-auto max-md:px-2 ">
             <div className="img">
               <div className="img-box h-full max-lg:mx-auto ">
@@ -176,23 +177,8 @@ export const Product = ({
                 </ul>
 
                 <div className="flex items-center gap-3">
-                  <button className="group transition-all duration-500 p-4 rounded-full bg-indigo-50 hover:bg-indigo-100 hover:shadow-sm hover:shadow-indigo-300">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="26"
-                      height="26"
-                      viewBox="0 0 26 26"
-                      fill="none"
-                    >
-                      <path
-                        d="M4.47084 14.3196L13.0281 22.7501L21.9599 13.9506M13.0034 5.07888C15.4786 2.64037 19.5008 2.64037 21.976 5.07888C24.4511 7.5254 24.4511 11.4799 21.9841 13.9265M12.9956 5.07888C10.5204 2.64037 6.49824 2.64037 4.02307 5.07888C1.54789 7.51738 1.54789 11.4799 4.02307 13.9184M4.02307 13.9184L4.04407 13.939M4.02307 13.9184L4.46274 14.3115"
-                        stroke="#16A349"
-                        strokeWidth="1.6"
-                        strokeMiterlimit="10"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                  <button className="flex gap-2 group transition-all duration-500 p-4 rounded-full bg-indigo-50 hover:bg-indigo-100 hover:shadow-sm hover:shadow-indigo-300">
+                  <IconFileDownload /> Broucher
                   </button>
                   <a href="/contact">
                     <button className="text-center w-full px-5 py-4 rounded-[100px] bg-green-600 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">

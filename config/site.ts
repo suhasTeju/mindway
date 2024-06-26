@@ -40,7 +40,7 @@ export const siteConfig = {
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
-    whatsapp: "https://wa.me/+919731370710",
+    whatsapp: "https://wa.me/+919108011234",
     instagram:
       "https://www.instagram.com/mindwaybiomedicalspvtltd?igsh=MWZ1MW5oempveXdxOA==",
     fb: "https://www.facebook.com/share/p/VF57k2EfDSKjHnpY/?mibextid=qi2Omg",
@@ -49,7 +49,7 @@ export const siteConfig = {
     transparent: "/footer-logo.png",
   },
   info: {
-    contact: "+919731370710",
+    contact: "+919108011234",
     email: "reachus@mindwaybimedicals.com",
     address:
       "436, 5th Cross, 7th Main Rd, 3rd Phase, J. P. Nagar, Bengaluru, Karnataka 560078",

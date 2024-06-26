@@ -24,6 +24,7 @@
 		"@react-aria/visually-hidden": "3.8.12",
 		"@tabler/icons-react": "^3.6.0",
 		"aos": "^2.3.4",
+		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
 		"framer-motion": "~11.1.1",
 		"intl-messageformat": "^10.5.0",

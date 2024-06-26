@@ -16,7 +16,7 @@ import NextLink from "next/link";
 import clsx from "clsx";
 import { useEffect, useState } from "react";
 // import { useRouter } from "next/router";
-import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
+import { IconBrandWhatsapp, IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { Logo, WhatsAppLogo } from "@/components/icons";
@@ -114,7 +114,7 @@ export const Navbar = () => {
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <Link isExternal aria-label="WhatsApp" href={siteConfig.links.whatsapp}>
-          <WhatsAppLogo className="text-default-500" />
+          <IconBrandWhatsapp className="text-default-500"/>
         </Link>
         <ThemeSwitch className="hidden" />
         <NavbarMenuToggle onClick={toggleMenu} />
