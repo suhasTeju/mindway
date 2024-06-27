@@ -214,7 +214,7 @@ export const Hero = () => {
                 </div>
 
                 <p className="mt-3 text-sm text-gray-800">
-                  <span className="font-bold">4.5</span> /5 Rating
+                  <span className="font-bold">4.9</span> /5 Rating
                 </p>
 
                 <div className="mt-2">
