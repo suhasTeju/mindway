@@ -39,6 +39,7 @@ const ImageCarousel = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + featuredProductList.length) % featuredProductList.length);
   };
 
+  //@ts-ignore
   const handleDotClick = (index) => {
     setCurrentIndex(index);
   };

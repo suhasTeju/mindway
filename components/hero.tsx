@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <>
       {/* <!-- Hero --> */}
-      <div data-aos="fade-up" className="max-w-[85rem] mx-auto p-4 sm:p-6 lg:p-8 border border-gray-100 rounded-2xl">
+      <div data-aos="fade-up" className="max-w-[85rem] mx-auto p-4 sm:p-6 lg:p-8 rounded-2xl">
         {/* <!-- Grid --> */}
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div>

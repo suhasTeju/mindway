@@ -17,12 +17,12 @@ export function Certified() {
       </div>
       <Dock data-aos="fade-up" className="mt-4 gap-8 bg-gray-50" >
         <DockIcon>
-          <img src="zybio.jpeg" className="h-10 w-10 rounded-2xl" />
+          <img src="zybio.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />
         </DockIcon>
-        <DockIcon><img src="gi.jpeg" className="h-10 w-10 rounded-2xl" /></DockIcon>
+        <DockIcon><img src="gi.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" /></DockIcon>
         {/* <DockIcon></DockIcon> */}
         <DockIcon>
-          <img src="pri.webp" className="h-10 w-10 rounded-2xl" />
+          <img src="pri.webp" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />
         </DockIcon>
         {/* <DockIcon>
           <Icons.notion className="h-6 w-6" />
