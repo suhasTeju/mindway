@@ -9,6 +9,7 @@ import { Stats } from "./UI/stats";
 import ImageCarousel from "./UI/image-slider";
 import { Category } from "./category";
 import { Certified } from "./certified";
+import GradualSpacing from "./UI/gradual-spacing";
 
 // Dynamically import the Map component with no SSR
 const Map = dynamic(() => import("@/components/UI/map"), { ssr: false });
@@ -35,7 +36,24 @@ export const LandingPage = () => {
       <div className="flex gap-3">
         <Category />
       </div>
+      <div data-aos="fade-up">
+        <GradualSpacing
+          className="font-display text-center text-4xl font-bold tracking-[-0.1em]  text-black dark:text-white md:text-7xl md:leading-[5rem]"
+          text="We Provide"
+          duration={5}
+        />
+        <GradualSpacing
+          className="font-display text-center text-4xl font-bold tracking-[-0.1em]  text-black dark:text-white md:text-7xl md:leading-[5rem]"
+          text="Application &"
+          duration={5}
+        />
 
+        <GradualSpacing
+          className="font-display text-center text-4xl font-bold tracking-[-0.1em]  text-black dark:text-white md:text-7xl md:leading-[5rem]"
+          text="Service Support"
+          duration={5}
+        />
+      </div>
       <div className="flex gap-3 w-full">
         <Stats />
       </div>

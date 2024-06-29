@@ -14,7 +14,8 @@ export default function AllProductPage() {
       once: false, // Whether animation should happen only once - while scrolling down
     });
   }, []);
-  const allProducts = siteConfig.allProducts;
+  //@ts-ignore
+  const allProducts = siteConfig.productCategory.flatMap(item => item?.subProducts);
   return (
     <div className="my-16">
       <div className="dark:text-white my-8 text-black text-2xl md:text-6xl font-bold">
@@ -23,6 +24,7 @@ export default function AllProductPage() {
         </span>
       </div>
       {allProducts.map((item, index) => (
+        //@ts-ignore
         <div key={index}>{<Product {...item} />}</div>
       ))}
     </div>

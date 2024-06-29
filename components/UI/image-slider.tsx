@@ -7,21 +7,21 @@ const featuredProductList = [
   {
     src: "/prochem2001.webp",
     title: "Prochem PA-200",
-    subtitle: "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated biochemistry analyzer proficient in performing tests on whole blood, serum, plasma, and urine as a samples",
+    subtitle: "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated analyzer",
     link: "/all-product",
     alt: "Hematology Analyzer",
   },
   {
-    src: "/prochem1001.webp",
-    title: "Prochem-PA100",
-    subtitle: "The Promea PA100 Electrolyte Analyzer is a cutting-edge device designed to accurately measure and analyze various essential parameters in a wide range of specimens, including Whole Blood, Serum, Plasma, and Urine.",
+    src: "/getin11601.jpg",
+    title: "Getein 1160",
+    subtitle: "Getein 1160 is a multi-channel analyzer which has 4 incubation channels and 1 emergency test channel.",
     link: "/all-product",
-    alt: "Prochem-PA100",
+    alt: "Getein 1160",
   },
   {
-    src: "/st200cc1.png",
-    title: "ST 200 CC Smart Blood Gas Analyzer",
-    subtitle: "This next-generation Hybrid device represents a significant leap forward in efficiency, accuracy, and connectivity for critical blood gas and electrolyte analysis",
+    src: "/st200ccabgem1.jpg",
+    title: "ST-200 CC ABGEM",
+    subtitle: "This next-generation Hybrid device represents a significant advance in efficiency and accuracy",
     link: "/all-product",
     alt: "ST 200 CC Smart",
   },
@@ -82,7 +82,7 @@ const ImageCarousel = () => {
           <IconArrowNarrowRight size={24} />
         </button>
       </div>
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex space-x-2">
         {featuredProductList.map((_, index) => (
           <button key={index} onClick={() => handleDotClick(index)} className="focus:outline-none">
             <IconCircle

@@ -2,6 +2,7 @@
 
 import { IconFileDownload } from "@tabler/icons-react";
 import Link from "next/link";
+import { BorderBeam } from "./border-beam";
 
 interface ProductProps {
   category: string;
@@ -26,12 +27,27 @@ export const Product = ({
         <div className="w-full mx-auto px-4 sm:px-6 lg:px-0 bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] py-6 rounded-xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mx-auto max-md:px-2 ">
             <div className="img">
-              <div className="img-box h-full max-lg:mx-auto ">
+              <div className="relative img-box h-full max-lg:mx-auto ">
                 <img
                   src={imgSrc}
                   alt={itemName}
                   className="max-lg:mx-auto lg:ml-auto h-full"
                 />
+                {totalReview == "0" && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: 12,
+                      zIndex: 99,
+                      right: 20,
+                    }}
+                  >
+                    <button className="relative px-2 rounded-xl border border-neutral-500 text-black-300 bg-white hover:bg-gray-100 transition duration-200">
+                      Coming Soon
+                      <BorderBeam size={60} duration={4} />
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
             <div className="data w-full lg:pr-8 pr-0 xl:justify-start justify-center flex items-center max-lg:pb-10 xl:my-2 lg:my-5 my-0">
@@ -178,7 +194,7 @@ export const Product = ({
 
                 <div className="flex items-center gap-3">
                   <button className="flex gap-2 group transition-all duration-500 p-4 rounded-full bg-indigo-50 hover:bg-indigo-100 hover:shadow-sm hover:shadow-indigo-300">
-                  <IconFileDownload /> Broucher
+                    <IconFileDownload /> Broucher
                   </button>
                   <a href="/contact">
                     <button className="text-center w-full px-5 py-4 rounded-[100px] bg-green-600 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">

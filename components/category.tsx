@@ -13,6 +13,7 @@ import {
 } from "@tabler/icons-react";
 import { BentoGrid, BentoGridItem } from "./UI/bento-grid";
 import { IconChemical, IconTestTube } from "./icons";
+import { siteConfig } from "@/config/site";
 
 interface Skeleton {
   url: string;
@@ -37,6 +38,7 @@ export function Category() {
             description={item.description}
             header={item.header}
             icon={item.icon}
+            //@ts-ignore
             count={item.count}
             className={
               i === 3 || i === 6
@@ -60,6 +62,9 @@ const Skeleton = ({ url }: Skeleton) => (
     />
   </div>
 );
+const getProductCount = ( category : string) => {
+  return siteConfig.productCategory.find (item => item.title === category)?.subProducts?.length
+}
 export const items = [
   {
     title: "Hematology",
@@ -67,28 +72,28 @@ export const items = [
       "Examine blood, blood diseases, and the organs involved in forming blood.",
     header: <Skeleton url="exi18001.jpg" />,
     icon: <IconBone className="h-4 w-4 text-green-500" />,
-    count: 5
+    count: getProductCount("Hematology")
   },
   {
     title: "Clinical Chemistry",
     description: "Analyze chemical processes and substances in the human body.",
     header: <Skeleton url="exc4001.png" />,
     icon: <IconChemical className="h-4 w-4 text-green-500" />,
-    count: 3
+    count: getProductCount("Clinical Chemistry")
   },
   {
     title: "CLIA",
     description: "Ensure quality standards for laboratory testing.",
-    header: <Skeleton url="exi18001.jpg" />,
+    header: <Skeleton url="magic60001.png" />,
     icon: <IconTestTube className="h-4 w-4 text-green-500" />,
-    count: 2
+    count: getProductCount("CLIA")
   },
   {
     title: "POCT",
     description: "Perform medical diagnostic testing at the point of care.",
     header: <Skeleton url="q8pro1.png" />,
     icon: <IconHeartbeat className="h-4 w-4 text-green-500" />,
-    count: 2
+    count: getProductCount("POCT")
   },
   {
     title: "Urinalysis",
@@ -96,23 +101,23 @@ export const items = [
       "Test and analyze urine to diagnose various medical conditions.",
     header: <Skeleton url="u36001.png" />,
     icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
-    count: 3
+    count: getProductCount("Urinalysis")
   },
   {
     title: "Asterial Blood Gas",
     description:
       "works by analysing a small blood sample taken from an artery",
-    header: <Skeleton url="st200cc1.png" />,
+    header: <Skeleton url="st200ccabgem1.jpg" />,
     icon: <IconBrandAsana className="h-4 w-4 text-green-500" />,
-    count: 4
+    count: getProductCount("Asterial Blood Gas")
   },
   {
-    title: "Electrolyte",
+    title: "Electrolytes",
     description:
       "works by analysing a small blood sample taken from an artery",
     header: <Skeleton url="u36001.png" />,
     icon: <IconBolt className="h-4 w-4 text-green-500" />,
-    count: 3
+    count: getProductCount("Electrolytes")
   },
   {
     title: "Molecular",
@@ -120,14 +125,7 @@ export const items = [
       "Explore the molecular structure and function of biological molecules.",
     header: <Skeleton url="/exm60001.png" />,
     icon: <IconDna className="h-4 w-4 text-green-500" />,
-    count: 7
-  },
-  {
-    title: "Microbiology",
-    description: "Examine and analyze microorganisms with precision.",
-    header: <Skeleton url="/mReg1.jpg" />,
-    icon: <IconVirus className="h-4 w-4 text-green-500" />,
-    count: 1
+    count: getProductCount("Molecular")
   },
 
   {
@@ -135,24 +133,30 @@ export const items = [
     description: "Study the process of blood clotting and its disorders.",
     header: <Skeleton url="yx20001.png" />,
     icon: <IconDroplet className="h-4 w-4 text-green-500" />,
-    count: 2
+    count: getProductCount("Hemostasis")
   },
-
   {
-    title: "Biomaterial",
-    description:
-      "Investigate materials used in medical devices and prosthetics.",
-    header: <Skeleton url="bioreagent1.jpg" />,
-    icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
-    count: 1
+    title: "Microbiology",
+    description: "Examine and analyze microorganisms with precision.",
+    header: <Skeleton url="/mReg1.jpg" />,
+    icon: <IconVirus className="h-4 w-4 text-green-500" />,
+    count: getProductCount("Microbiology")
   },
+  // {
+  //   title: "Biomaterial",
+  //   description:
+  //     "Investigate materials used in medical devices and prosthetics.",
+  //   header: <Skeleton url="bioreagent1.jpg" />,
+  //   icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
+  //   count: getProductCount("Biomaterial")
+  // },
   {
     title: "Others",
     description:
       "Laboratory consumeable and others",
     header: <Skeleton url="bioreagent1.jpg" />,
     icon: <IconLayersIntersect className="h-4 w-4 text-green-500" />,
-    count: 1
+    count: getProductCount("Others")
   },
  
 ];

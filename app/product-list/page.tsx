@@ -15,7 +15,7 @@ function ProductListContent() {
   const pathname = usePathname();
 
   useEffect(() => {
-    const hashCategory = window?.location?.hash?.toString().replace("#", "").replace("%20", " ");
+    const hashCategory = window?.location?.hash?.toString().replace("#", "").replaceAll("%20", " ");
     if (hashCategory) {
       setCategory(hashCategory);
     }
@@ -50,7 +50,7 @@ function ProductListContent() {
           {category} Equipments
         </span>
       </div>
-      {catProducts.map((item, index) => (
+      {catProducts?.map((item, index) => (
         <div key={index}>
           {
             //@ts-ignore

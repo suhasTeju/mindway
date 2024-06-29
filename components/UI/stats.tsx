@@ -1,3 +1,4 @@
+import NumberTicker from "./number-ticker"
 
 
 
@@ -25,7 +26,7 @@ export const Stats = () => {
                   <div
                     className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left"
                   >
-                    260+
+                    <NumberTicker  value={260} delay={1} />+
                   </div>
                   <span className="text-gray-900 text-center block lg:text-left"
                     >Expert Consultants
@@ -35,7 +36,8 @@ export const Stats = () => {
                   <div
                     className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left"
                   >
-                    975+
+                    <NumberTicker value={975} delay={1}  />+
+                    
                   </div>
                   <span className="text-gray-900 text-center block lg:text-left"
                     >Active Clients
@@ -45,7 +47,8 @@ export const Stats = () => {
                   <div
                     className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left"
                   >
-                    724+
+                    <NumberTicker value={724} delay={1}  />+
+                    
                   </div>
                   <span className="text-gray-900 text-center block lg:text-left"
                     >Projects Delivered</span>
@@ -54,7 +57,7 @@ export const Stats = () => {
                   <div
                     className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left"
                   >
-                    89+
+                     <NumberTicker value={89} delay={1} />+
                   </div>
                   <span className="text-gray-900 text-center block lg:text-left"
                     >Orders in Queue</span>

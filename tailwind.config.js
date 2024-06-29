@@ -13,6 +13,16 @@ module.exports = {
         sans: ["var(--font-sans)"],
         mono: ["var(--font-geist-mono)"],
       },
+      animation: {
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
+      },
+      keyframes: {
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%",
+          },
+        },
+      },
     },
   },
   darkMode: "class",
