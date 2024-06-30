@@ -94,7 +94,7 @@ export const siteConfig = {
           ],
           description:
             "A new generation 3-diff hematology analyzer tailored for small laboratory",
-          imgSrc: "/exi18001.jpg",
+          imgSrc: "/z31.png",
           totalReview: "4",
         },
         {
