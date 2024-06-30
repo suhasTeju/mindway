@@ -33,7 +33,7 @@ export const Product = ({
                 <img
                   src={imgSrc}
                   alt={itemName}
-                  className="max-lg:mx-auto lg:ml-auto h-full sm:object-cover md:object-contain"
+                  className="max-lg:mx-auto lg:ml-auto h-full sm:object-contain md:object-contain"
                 />
                 {totalReview == "0" && (
                   <div
