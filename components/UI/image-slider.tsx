@@ -224,7 +224,7 @@ const ImageCarousel = () => {
         </button>
       </div>
 
-      <p className="mt-5 text-center text-gray-700 dark:text-gray-300">
+      <p className="mt-5 text-center font-semibold text-gray-700 dark:text-gray-300">
       From cutting-edge analyzers to essential lab consumables, our products are designed to enhance diagnostic accuracy and efficiency.
       </p>
       <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>

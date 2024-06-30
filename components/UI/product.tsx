@@ -26,7 +26,7 @@ export const Product = ({
   return (
     <>
       <section className="relative sm:py-8 py-10" data-aos="fade-up">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-0 bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] py-6 rounded-xl">
+        <div data-aos="fade-up" className="w-full mx-auto px-4 sm:px-6 lg:px-0 bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] py-6 rounded-xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mx-auto max-md:px-2 ">
             <div className="img">
               <div className="relative img-box h-full max-lg:mx-auto ">
