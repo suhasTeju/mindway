@@ -70,28 +70,28 @@ export const items = [
     title: "Hematology",
     description:
       "Examine blood, blood diseases, and the organs involved in forming blood.",
-    header: <Skeleton url="exi18001.jpg" />,
+    header: <Skeleton url="/exi18001.jpg" />,
     icon: <IconBone className="h-4 w-4 text-green-500" />,
     count: getProductCount("Hematology")
   },
   {
     title: "Clinical Chemistry",
     description: "Analyze chemical processes and substances in the human body.",
-    header: <Skeleton url="exc4001.png" />,
+    header: <Skeleton url="exc2001.png" />,
     icon: <IconChemical className="h-4 w-4 text-green-500" />,
     count: getProductCount("Clinical Chemistry")
   },
   {
     title: "CLIA",
     description: "Ensure quality standards for laboratory testing.",
-    header: <Skeleton url="magic60001.png" />,
+    header: <Skeleton url="/magic60001.png" />,
     icon: <IconTestTube className="h-4 w-4 text-green-500" />,
     count: getProductCount("CLIA")
   },
   {
     title: "POCT",
     description: "Perform medical diagnostic testing at the point of care.",
-    header: <Skeleton url="q8pro1.png" />,
+    header: <Skeleton url="/1201.png" />,
     icon: <IconHeartbeat className="h-4 w-4 text-green-500" />,
     count: getProductCount("POCT")
   },
@@ -99,7 +99,7 @@ export const items = [
     title: "Urinalysis",
     description:
       "Test and analyze urine to diagnose various medical conditions.",
-    header: <Skeleton url="u36001.png" />,
+    header: <Skeleton url="/u36001.png" />,
     icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
     count: getProductCount("Urinalysis")
   },
@@ -107,7 +107,7 @@ export const items = [
     title: "Asterial Blood Gas",
     description:
       "works by analysing a small blood sample taken from an artery",
-    header: <Skeleton url="st200ccabgem1.jpg" />,
+    header: <Skeleton url="edani151.jpg" />,
     icon: <IconBrandAsana className="h-4 w-4 text-green-500" />,
     count: getProductCount("Asterial Blood Gas")
   },
@@ -115,7 +115,7 @@ export const items = [
     title: "Electrolytes",
     description:
       "works by analysing a small blood sample taken from an artery",
-    header: <Skeleton url="u36001.png" />,
+    header: <Skeleton url="prochem1001.webp" />,
     icon: <IconBolt className="h-4 w-4 text-green-500" />,
     count: getProductCount("Electrolytes")
   },
@@ -123,17 +123,9 @@ export const items = [
     title: "Molecular",
     description:
       "Explore the molecular structure and function of biological molecules.",
-    header: <Skeleton url="/exm60001.png" />,
+    header: <Skeleton url="/exm30001.png" />,
     icon: <IconDna className="h-4 w-4 text-green-500" />,
     count: getProductCount("Molecular")
-  },
-
-  {
-    title: "Hemostasis",
-    description: "Study the process of blood clotting and its disorders.",
-    header: <Skeleton url="yx20001.png" />,
-    icon: <IconDroplet className="h-4 w-4 text-green-500" />,
-    count: getProductCount("Hemostasis")
   },
   {
     title: "Microbiology",
@@ -142,14 +134,14 @@ export const items = [
     icon: <IconVirus className="h-4 w-4 text-green-500" />,
     count: getProductCount("Microbiology")
   },
-  // {
-  //   title: "Biomaterial",
-  //   description:
-  //     "Investigate materials used in medical devices and prosthetics.",
-  //   header: <Skeleton url="bioreagent1.jpg" />,
-  //   icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
-  //   count: getProductCount("Biomaterial")
-  // },
+
+  {
+    title: "Hemostasis",
+    description: "Study the process of blood clotting and its disorders.",
+    header: <Skeleton url="yx200ac1.png" />,
+    icon: <IconDroplet className="h-4 w-4 text-green-500" />,
+    count: getProductCount("Hemostasis")
+  },
   {
     title: "Others",
     description:

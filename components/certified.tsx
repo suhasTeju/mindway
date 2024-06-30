@@ -19,7 +19,7 @@ export function Certified() {
         <DockIcon>
           <img src="zybio.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />
         </DockIcon>
-        <DockIcon><img src="gi.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" /></DockIcon>
+        {/* <DockIcon><img src="gi.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" /></DockIcon> */}
         {/* <DockIcon></DockIcon> */}
         <DockIcon>
           <img src="pri.webp" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />

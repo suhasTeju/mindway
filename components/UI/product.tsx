@@ -11,6 +11,7 @@ interface ProductProps {
   description: string;
   imgSrc: string;
   totalReview: string;
+  fileLink?:string
 }
 
 export const Product = ({
@@ -20,6 +21,7 @@ export const Product = ({
   description,
   imgSrc,
   totalReview,
+  fileLink
 }: ProductProps) => {
   return (
     <>
@@ -59,7 +61,7 @@ export const Product = ({
                   {itemName}
                 </h2>
                 <div className="flex flex-col sm:flex-row sm:items-center mb-6">
-                  <div className="flex items-center gap-2">
+                  {/* <div className="flex items-center gap-2">
                     <div className="flex items-center gap-1">
                       <svg
                         width="20"
@@ -160,7 +162,7 @@ export const Product = ({
                     <span className="pl-2 font-normal leading-7 text-gray-500 text-sm ">
                       {totalReview} review
                     </span>
-                  </div>
+                  </div> */}
                 </div>
                 <p className="text-gray-500 text-base font-normal mb-5">
                   {description}
@@ -193,9 +195,9 @@ export const Product = ({
                 </ul>
 
                 <div className="flex items-center gap-3">
-                  <button className="flex gap-2 group transition-all duration-500 p-4 rounded-full bg-indigo-50 hover:bg-indigo-100 hover:shadow-sm hover:shadow-indigo-300">
+                  {fileLink && <button className="flex gap-2 group transition-all duration-500 p-4 rounded-full bg-indigo-50 hover:bg-indigo-100 hover:shadow-sm hover:shadow-indigo-300">
                     <IconFileDownload /> Broucher
-                  </button>
+                  </button>}
                   <a href="/contact">
                     <button className="text-center w-full px-5 py-4 rounded-[100px] bg-green-600 flex items-center justify-center font-semibold text-lg text-white shadow-sm transition-all duration-500 hover:bg-indigo-700 hover:shadow-indigo-400">
                       Get Quota
