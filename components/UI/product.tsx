@@ -33,7 +33,7 @@ export const Product = ({
                 <img
                   src={imgSrc}
                   alt={itemName}
-                  className="max-lg:mx-auto lg:ml-auto h-full sm:object-cover md:object-contain"
+                  className="max-lg:mx-auto sm:h-[210px] sm:w-[330px] md:w-full md:h-full lg:ml-auto h-full sm:object-cover md:object-cover"
                   style={{objectFit: "cover"}}
                 />
                 {totalReview == "0" && (
