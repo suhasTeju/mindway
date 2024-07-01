@@ -70,7 +70,7 @@ export const items = [
     title: "Hematology",
     description:
       "Examine blood, blood diseases, and the organs involved in forming blood.",
-    header: <Skeleton url="/exi18001.jpg" />,
+    header: <Skeleton url="/z31.png" />,
     icon: <IconBone className="h-4 w-4 text-green-500" />,
     count: getProductCount("Hematology")
   },
