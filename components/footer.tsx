@@ -155,7 +155,7 @@ export const Footer = () => {
                     </svg>
 
                     <span className="text-black transition group-hover:text-black/75">
-                      9731370710
+                      {siteConfig.info.contact}
                     </span>
                   </a>
                 </li>

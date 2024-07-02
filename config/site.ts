@@ -13,10 +13,6 @@ export const siteConfig = {
       label: "Contact",
       href: "/contact",
     },
-    {
-      label: "Products",
-      href: "/products",
-    },
   ],
   navMenuItems: [
     {
@@ -28,9 +24,9 @@ export const siteConfig = {
       href: "/contact",
     },
     {
-      label: "Products",
-      href: "/products",
-    },
+      label: "All Products",
+      href: "/all-product"
+    }
   ],
   links: {
     github: "https://github.com/nextui-org/nextui",

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  keywords: ["Mindway biomedicals", "mindwaybiomedicals", "lab equipments"]
+  keywords: ["Mindway biomedicals", "mindwaybiomedicals", "lab equipments"],
 };
 
 export const viewport: Viewport = {
@@ -34,8 +34,8 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head >
-      <Script
+      <head>
+        <Script
           id="crisp-chat"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
@@ -52,6 +52,7 @@ export default function RootLayout({
             `,
           }}
         />
+        <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
       </head>
       <body
         className={clsx(
