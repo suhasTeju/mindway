@@ -7,6 +7,7 @@ import {
     IconList
   } from '@tabler/icons-react';
 import { items } from '../category';
+import Link from 'next/link';
 
   
 
@@ -36,10 +37,10 @@ export const  Dropdown = () => {
                   {item.icon}
                 </div>
                 <div>
-                  <a href={`/product-list#${item.title}`} className="font-semibold text-gray-900">
+                  <Link href={`/product-list#${item.title}`} className="font-semibold text-gray-900">
                     {item.title}
                     <span className="absolute inset-0" />
-                  </a>
+                  </Link>
                   <p className="mt-1 hidden md:block text-gray-600">{item.description}</p>
                 </div>
               </div>
