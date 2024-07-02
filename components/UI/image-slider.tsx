@@ -184,7 +184,7 @@ const ImageCarousel = () => {
         {/* <!-- Slider controls --> */}
         <button
           type="button"
-          className="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+          className="flex absolute top-1/2 left-3 z-20 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
           data-carousel-prev
         >
           <svg
@@ -204,7 +204,7 @@ const ImageCarousel = () => {
         </button>
         <button
           type="button"
-          className="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+          className="flex absolute top-1/2 right-3 z-20 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
           data-carousel-next
         >
           <svg
