@@ -92,6 +92,7 @@ export const siteConfig = {
             "A new generation 3-diff hematology analyzer tailored for small laboratory",
           imgSrc: "/z31.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91+Z3_EN.pdf"
         },
         {
           category: "Hematology",
@@ -118,6 +119,7 @@ export const siteConfig = {
             "An evolved 5-diff hematology analyzer enable all possibilities in the small laboratories",
           imgSrc: "/z501.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Zybio+Z50.pdf"
         },
         {
           category: "Hematology",
@@ -132,6 +134,7 @@ export const siteConfig = {
             "A powerful assistant for micro-volume whole blood automatic detection",
           imgSrc: "/exz60001.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio%E3%80%91EXZ6000+Hematology+Analyzer-flyer.pdf"
         },
         // {
         //   category: "Hematology",
@@ -149,6 +152,21 @@ export const siteConfig = {
       description:
         "Analyze chemical processes and substances in the human body.",
       subProducts: [
+        {
+          category: "Clinical Chemistry",
+          itemName: "EXC 420",
+          highlightPoints: [
+            "Constant 400 T/H offers a higher efficiency",
+            "Less maintainance",
+            "Economic usage",
+            "Reliable quality",
+          ],
+          description:
+            "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
+          imgSrc: "exc420.jpg",
+          totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91EXC420+%EF%BC%88English+version%EF%BC%89.pdf"
+        },
         {
           category: "Clinical Chemistry",
           itemName: "EXC 400 (Fully Auto Bio Chemistry)",
@@ -177,6 +195,21 @@ export const siteConfig = {
             "Chemistry Analyzer An automated desktop chemistry analyzer dedicated for small healthcare institution",
           imgSrc: "exc2001.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Zybio-Brochure-EXC200.pdf"
+        },
+        {
+          category: "Clinical Chemistry",
+          itemName: "Prochem PA-200 mini",
+          highlightPoints: [
+            "User Interface: LCD display with Touch Key board",
+            "Real time curve showing",
+            "Wavelengths: 7 wavelength, 80 test items pre programmed",
+          ],
+          description:
+            "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated biochemistry analyzer proficient in performing tests on whole blood, serum, plasma, and urine as a samples",
+          imgSrc: "prochempa200min1.webp",
+          totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Promea+Clinical+Chemistry+Analyzer+(Semi+Auto)+Brochure+(1).pdf"
         },
         {
           category: "Clinical Chemistry",
@@ -320,6 +353,7 @@ export const siteConfig = {
             "Fluorescence based POCT immunoassay system Unique rare earth element fluorescent microsphere labeling technology",
           imgSrc: "/q8pro1.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/q8-pro-1.pdf"
         },
         {
           category: "POCT",
@@ -332,6 +366,7 @@ export const siteConfig = {
           description: "Fluorescence Immunochromatgraphy Analyzer",
           imgSrc: "/1201.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91POCT-EXR+110-20221221H_%E9%A2%84%E8%A7%88.pdf"
         },
         {
           category: "POCT",

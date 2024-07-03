@@ -52,10 +52,11 @@ export default function ProductSearch() {
               input: "text-sm",
             }}
             labelPlacement="outside"
-            placeholder="Search..."
+            placeholder="Click here to search..."
             startContent={
               <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
             }
+            // disabled
             type="search"
           />
         </PopoverButton>
