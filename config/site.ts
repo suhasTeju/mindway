@@ -257,6 +257,7 @@ export const siteConfig = {
             "MAGICL 6000, a compact and innovative chemiluminescence immunoassay analyzer, with optimal choice for mid to high-workflow laboratories which need a one-step chemiluminescence solution.",
           imgSrc: "/magic60001.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Catalogue.+MAGICAL6000+Chemiluminescence+Immunoassay+Analyzer.pdf"
         },
         {
           category: "CLIA",
@@ -271,6 +272,7 @@ export const siteConfig = {
             "The MAGICL 6000i is an innovative chemiluminescent immunoassay analyser that is a variation of the MAGICL 6000, featuring high productivity, compactness and the highly sensitive CLIA method, which is accurate, easy to use and offers the fastest detection speed in its class.",
           imgSrc: "/magic6000i1.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E5%A4%96%E8%B4%B8MAGICL+6000i%E4%BB%AA%E5%99%A8%E5%8F%8C%E6%8A%98%E9%A1%B5%EF%BC%88%E7%AB%96%E5%B0%8F%EF%BC%8924-3(1).pdf"
         },
         {
           category: "CLIA",
@@ -399,6 +401,7 @@ export const siteConfig = {
             "The Mission® U120 Smart Urine Analyzer is a compact, efficient device designed for precise urine analysis.",
           imgSrc: "/u1201.png",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Venkatesh+03.pdf"
         },
         {
           category: "Urinalysis",
@@ -475,18 +478,6 @@ export const siteConfig = {
       description: "Find other useful materials and machines",
       subProducts: [
         {
-          imgSrc: "/prochem1001.webp",
-          itemName: "Prochem-PA100",
-          description:
-            "The Promea PA100 Electrolyte Analyzer is a cutting-edge device designed to accurately measure and analyze various essential parameters in a wide range of specimens, including Whole Blood, Serum, Plasma, and Urine.",
-          highlightPoints: [
-            "Measuring time: Less than 60 seconds",
-            "Samples per Pack: Up to 1000 samples per Reagent Pack.",
-            "Reagent Security: Intelligent Reagent Pack with electronic chip.",
-            "Parameter Conversion: Integrated Parameter conversion functionality.",
-          ],
-        },
-        {
           imgSrc: "st200aqua1.jpg",
           itemName: "ST-200 aQua Electrolyte Analyzer",
           description:
@@ -497,17 +488,18 @@ export const siteConfig = {
             "Parameters: Na, K, iCa, Cl, Li, pH.",
             "External Integration: LIS Integration (Serial Port).",
           ],
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/622b42eb0df1709579dcdcf2ff2d411a.pdf"
         },
         {
-          imgSrc: "st200aqua1.jpg",
-          itemName: "ST-200 aQua Electrolyte Analyzer with Bicard",
+          imgSrc: "/prochem1001.webp",
+          itemName: "Prochem-PA100",
           description:
-            "The ST-200 aQua Electrolyte Analyzer with Bicard by Sensa Core is an advanced, microprocessor-controlled system designed for precise and automated electrolyte and bicarbonate measurements using ISE technology.",
+            "The Promea PA100 Electrolyte Analyzer is a cutting-edge device designed to accurately measure and analyze various essential parameters in a wide range of specimens, including Whole Blood, Serum, Plasma, and Urine.",
           highlightPoints: [
-            "Sample Volume: 100 µL",
-            "Sample Type: Whole Blood, Serum, Plasma, CSF & Urine",
-            "Parameters: Na, K, iCa, Cl, Li, pH, HCO3 (Bicarbonate).",
-            "External Integration: LIS Integration (Serial Port).",
+            "Measuring time: Less than 60 seconds",
+            "Samples per Pack: Up to 1000 samples per Reagent Pack.",
+            "Reagent Security: Intelligent Reagent Pack with electronic chip.",
+            "Parameter Conversion: Integrated Parameter conversion functionality.",
           ],
         },
       ],
