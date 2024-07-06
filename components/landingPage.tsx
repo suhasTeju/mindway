@@ -30,9 +30,9 @@ export const LandingPage = () => {
       <div>
         <Certified />
       </div>
-      <div className="flex gap-3">
+      {/* <div className="flex gap-3">
         <ImageCarousel />
-      </div>
+      </div> */}
       <div className="flex gap-3">
         <Category />
       </div>

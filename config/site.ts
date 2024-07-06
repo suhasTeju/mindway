@@ -81,7 +81,7 @@ export const siteConfig = {
       subProducts: [
         {
           category: "Hematology",
-          itemName: "Z3 (3 part)",
+          itemName: "Zybio Z3 (3 part)",
           highlightPoints: [
             "User-friendly Experience",
             "One screen display of test result",
@@ -90,13 +90,13 @@ export const siteConfig = {
           ],
           description:
             "A new generation 3-diff hematology analyzer tailored for small laboratory",
-          imgSrc: "/z31.png",
+          imgSrc: "/z3updated.jpg",
           totalReview: "4",
           fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91+Z3_EN.pdf"
         },
         {
           category: "Hematology",
-          itemName: "Z3 CRP (3 part)",
+          itemName: "Zybio Z3 CRP (3 part)",
           highlightPoints: [
             "10.4-inch touch screen+ intuitive navigation menu, bring you user-friendly experience",
             "One button sample aspiration and troubleshooting",
@@ -104,12 +104,12 @@ export const siteConfig = {
           ],
           description:
             "Compact and portable design leads to spare more space for small labs, clinics and etc.",
-          imgSrc: "/z3crp1.png",
+          imgSrc: "/Z3crp.jpg",
           totalReview: "4",
         },
         {
           category: "Hematology",
-          itemName: "Z50 (5 part)",
+          itemName: "Zybio Z50 (5 part)",
           highlightPoints: [
             "Tri-angle laser scatter + advanced flow cytometry + chemical dye, create the possibility for better 5-diff WBC differentiation even on samples with high Eosinophil.",
             "Dedicate channel and optical method for Basophil measurement, have a better performance on basophil counting than traditional impedance method.",
@@ -117,13 +117,13 @@ export const siteConfig = {
           ],
           description:
             "An evolved 5-diff hematology analyzer enable all possibilities in the small laboratories",
-          imgSrc: "/z501.png",
+          imgSrc: "/z50.jpg",
           totalReview: "4",
           fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Zybio+Z50.pdf"
         },
         {
           category: "Hematology",
-          itemName: "EXZ 6000 (Auto Loader)",
+          itemName: "Zybio EXZ 6000 (Auto Loader)",
           highlightPoints: [
             "Optimized testing process to reduce manual operations",
             "High-definition color touch screen",
@@ -132,7 +132,7 @@ export const siteConfig = {
           ],
           description:
             "A powerful assistant for micro-volume whole blood automatic detection",
-          imgSrc: "/exz60001.png",
+          imgSrc: "/EXZ 6000.jpg",
           totalReview: "4",
           fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio%E3%80%91EXZ6000+Hematology+Analyzer-flyer.pdf"
         },
@@ -152,34 +152,34 @@ export const siteConfig = {
       description:
         "Analyze chemical processes and substances in the human body.",
       subProducts: [
+        // {
+        //   category: "Clinical Chemistry",
+        //   itemName: "Zybio EXC 420",
+        //   highlightPoints: [
+        //     "Constant 400 T/H offers a higher efficiency",
+        //     "Less maintainance",
+        //     "Economic usage",
+        //     "Reliable quality",
+        //   ],
+        //   description:
+        //     "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
+        //   imgSrc: "exc420.jpg",
+        //   totalReview: "4",
+        //   fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91EXC420+%EF%BC%88English+version%EF%BC%89.pdf"
+        // },\
         {
           category: "Clinical Chemistry",
-          itemName: "EXC 420",
+          itemName: "Prochem PA-200 mini",
           highlightPoints: [
-            "Constant 400 T/H offers a higher efficiency",
-            "Less maintainance",
-            "Economic usage",
-            "Reliable quality",
+            "User Interface: LCD display with Touch Key board",
+            "Real time curve showing",
+            "Wavelengths: 7 wavelength, 80 test items pre programmed",
           ],
           description:
-            "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
-          imgSrc: "exc420.jpg",
+            "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated biochemistry analyzer proficient in performing tests on whole blood, serum, plasma, and urine as a samples",
+          imgSrc: "prochempa200min1.webp",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91EXC420+%EF%BC%88English+version%EF%BC%89.pdf"
-        },
-        {
-          category: "Clinical Chemistry",
-          itemName: "EXC 400 (Fully Auto Bio Chemistry)",
-          highlightPoints: [
-            "Constant 400 T/H offers a higher efficiency",
-            "Bilateral LIS interface allows convenient results transfer",
-            "Over 100 original reagents and quality controls ensure reliable and traceable results",
-            "Minimum reaction volume and lower water consumption result in cost-effectiveness",
-          ],
-          description:
-            "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
-          imgSrc: "exc4001.png",
-          totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Promea+Clinical+Chemistry+Analyzer+(Semi+Auto)+Brochure+(1).pdf"
         },
         {
           category: "Clinical Chemistry",
@@ -199,18 +199,21 @@ export const siteConfig = {
         },
         {
           category: "Clinical Chemistry",
-          itemName: "Prochem PA-200 mini",
+          itemName: "EXC 400 (Fully Auto Bio Chemistry)",
           highlightPoints: [
-            "User Interface: LCD display with Touch Key board",
-            "Real time curve showing",
-            "Wavelengths: 7 wavelength, 80 test items pre programmed",
+            "Constant 400 T/H offers a higher efficiency",
+            "Bilateral LIS interface allows convenient results transfer",
+            "Over 100 original reagents and quality controls ensure reliable and traceable results",
+            "Minimum reaction volume and lower water consumption result in cost-effectiveness",
           ],
           description:
-            "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated biochemistry analyzer proficient in performing tests on whole blood, serum, plasma, and urine as a samples",
-          imgSrc: "prochempa200min1.webp",
+            "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
+          imgSrc: "exc4001.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Promea+Clinical+Chemistry+Analyzer+(Semi+Auto)+Brochure+(1).pdf"
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91EXC420+%EF%BC%88English+version%EF%BC%89.pdf"
         },
+
+
         {
           category: "Clinical Chemistry",
           itemName: "Prochem PA-200 (Semi Auto Bio Chemistry)",
@@ -222,7 +225,7 @@ export const siteConfig = {
           description:
             "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated biochemistry analyzer proficient in performing tests on whole blood, serum, plasma, and urine as a samples",
           imgSrc: "prochem2001.webp",
-          totalReview: "4",
+          totalReview: "0",
         },
         // {
         //   category: "Clinical Chemistry",
@@ -246,7 +249,7 @@ export const siteConfig = {
       subProducts: [
         {
           category: "CLIA",
-          itemName: "Magicl 6000",
+          itemName: "Getein Magicl 6000",
           highlightPoints: [
             "Smaple type: Whole Blood/Serum/Plasma/Urine/Fingertip Blood",
             "Test Time: 150 T/H",
@@ -261,7 +264,7 @@ export const siteConfig = {
         },
         {
           category: "CLIA",
-          itemName: "Magicl 6000i",
+          itemName: "Getein Magicl 6000i",
           highlightPoints: [
             "Smaple type: Serum/Plasma/Urine/Fingertip Blood",
             "Test Time: 200 T/H",
@@ -276,7 +279,7 @@ export const siteConfig = {
         },
         {
           category: "CLIA",
-          itemName: "EXI 1800",
+          itemName: "Zybio EXI 1800",
           highlightPoints: [
             "Magnetic separation technical patent",
             "Innovative non-contact vortex mixing technology",
@@ -285,12 +288,13 @@ export const siteConfig = {
           ],
           description:
             "Technical innovation, more accurate resullts Magnetic separation patent Non-contact vortex mixing Multi-module integration",
-          imgSrc: "/exi18001.jpg",
+          imgSrc: "/EXI 1800.jpg",
           totalReview: "0",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio%E3%80%91EXI1800+iMMUNOASSAY+ANALYZER.pdf"
         },
         {
           category: "CLIA",
-          itemName: "EXI 1820",
+          itemName: "Zybio EXI 1820",
           highlightPoints: [
             "High-efficiency magnetic separation",
             "Innovative non-contact vortex mixing",
@@ -301,12 +305,12 @@ export const siteConfig = {
           ],
           description:
             "The EXI 1820 is designed for high-efficiency CLIA testing. It features magnetic separation, innovative non-contact vortex mixing, a constant temperature incubation system, and advanced multi-module integration. Capable of processing up to 182 tests per hour, it offers a user-friendly interface and high automation.",
-          imgSrc: "/exi18001.jpg",
+          imgSrc: "/exi1820i1.jpg",
           totalReview: "0",
         },
         {
           category: "CLIA",
-          itemName: "EXI 2400",
+          itemName: "Zybio EXI 2400",
           highlightPoints: [
             "Advanced magnetic separation technology",
             "Non-contact vortex mixing for contamination-free results",
@@ -317,7 +321,7 @@ export const siteConfig = {
           ],
           description:
             "The EXI 2400 is an advanced CLIA analyzer offering superior magnetic separation technology, non-contact vortex mixing, and precision temperature control. It features an integrated multi-module architecture and can process up to 240 tests per hour. With enhanced data management and connectivity options, it provides reliable and efficient testing.",
-          imgSrc: "/exi18001.jpg",
+          imgSrc: "/exi2400i1.png",
           totalReview: "0",
         },
         // {
@@ -344,7 +348,7 @@ export const siteConfig = {
       subProducts: [
         {
           category: "POCT",
-          itemName: "Q8 PRO Fluorescence Immunoassay Analyzer",
+          itemName: "Zybio Q8 PRO",
           highlightPoints: [
             "Disk 25 channels. Multi-language and high efficient",
             "15-inch HD touch screen. Easy to operation",
@@ -359,7 +363,7 @@ export const siteConfig = {
         },
         {
           category: "POCT",
-          itemName: "EXR110/120",
+          itemName: "Zybio EXR110/120",
           highlightPoints: [
             "3 Channels. high efficient",
             "1 Step Loading. Easy operation and faster results",
@@ -381,6 +385,7 @@ export const siteConfig = {
             "Getein 1160 is a multi-channel analyzer which has 4 incubation channels and 1 emergency test channel, and also has constant test environment with 32℃ to ensure more accurate test results.",
           imgSrc: "/getin11601.jpg",
           totalReview: "4",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Getein-1160-brochure-.pdf"
         },
       ],
     },
@@ -405,34 +410,48 @@ export const siteConfig = {
         },
         {
           category: "Urinalysis",
-          itemName: "U 3600",
-          highlightPoints: [],
-          description: "",
-          imgSrc: "/u36001.png",
-          totalReview: "4",
-        },
-        {
-          category: "Urinalysis",
-          itemName: "U 2610/1600",
+          itemName: "Zybio Urine Chemistry U1600",
           highlightPoints: [
             "Intelligent: If the chemistry results are negative, no microscopic analysis is performed",
             "Flexible: No need for a connection bridge to connect machine",
             "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection",
           ],
           description: "Urine Sediment Analyzer Precise and effcient",
-          imgSrc: "/u26101.png",
+          imgSrc: "/U1600.jpg",
           totalReview: "4",
         },
+        {
+          category: "Urinalysis",
+          itemName: "Zybio Urine Sediment U2600",
+          highlightPoints: [
+            "Intelligent: If the chemistry results are negative, no microscopic analysis is performed",
+            "Flexible: No need for a connection bridge to connect machine",
+            "Efficient: 150 T/H for Sediment or Chemistry+ Sediment joint detection",
+          ],
+          description: "Urine Sediment Analyzer Precise and effcient",
+          imgSrc: "/U2600.jpg",
+          totalReview: "4",
+        },
+        {
+          category: "Urinalysis",
+          itemName: "Zybio Urinalysis Hybrid U3600",
+          highlightPoints: [],
+          description: "",
+          imgSrc: "/U3600.jpg",
+          totalReview: "4",
+        },
+        
+        
       ],
     },
     {
-      title: "Asterial Blood Gas",
+      title: "Arterial Blood Gas",
       description:
         "works by analysing a small blood sample taken from an artery",
       subProducts: [
         {
-          category: "Asterial Blood Gas",
-          itemName: "ST 200 CC Smart Blood Gas Analyzer",
+          category: "Arterial Blood Gas",
+          itemName: "Sensacore ST-200CC ABGE",
           description:
             "This next-generation Hybrid device represents a significant leap forward in efficiency, accuracy, and connectivity for critical blood gas and electrolyte analysis",
           highlightPoints: [
@@ -442,24 +461,38 @@ export const siteConfig = {
             "Single touch calibration for new reagent pack.",
             "Maximum 2,00,000+ sample storage capacity.",
           ],
-          imgSrc: "st200cc1.png",
+          imgSrc: "st200cc1.jpg",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/3457dcb654b2c5cf34e36ab2153373c2.pdf"
         },
         {
-          category: "Asterial Blood Gas",
-          itemName: "ST-200 CC ABGEM Blood Gas Analyzer",
+          category: "Arterial Blood Gas",
+          itemName: "Sensacore ST-200CC Ultra Smart ABGEM",
+          description:
+            "Sensa Core’s ST-200CC Ultra Smart Blood Gas Analyzer is an automated, microprocessor-controlled electrolyte, blood gases and metabolites system",
+          highlightPoints: [
+            "Sample Volume	100 μL (Capillary/Micro mode)",
+            "Sample Type	Whole Blood, Serum, Plasma, CSF & Diluted Urine",
+            "External Integration	Barcode Scanner, Mouse, Keypad (Any 2 at a Time) & LIS Integration (Serial Port)",
+            "Principle	Direct Measurement with ISE(electrolytes), Impedance (Hct), and Amperometry (Gases and Metobolites)",
+          ],
+          imgSrc: "abgem1.jpg",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Ultra+Smart+Brochure++(1).pdf"
+        },
+        {
+          category: "Arterial Blood Gas",
+          itemName: "Sensacore ST-200CC Smart Hybrid ABGEM",
           description:
             "This next-generation Hybrid device represents a significant leap forward in efficiency, accuracy, and connectivity for critical blood gas and electrolyte analysis",
           highlightPoints: [
-            "Easy to Operate",
-            "Accurate Results",
-            "Minimal Maintenance",
-            "Economical",
+            "Sample Volume	100 μL (Capillary/Micro mode)",
+            "Sample Type	Whole Blood, Serum, Plasma, Diluted Urine and QC",
+            "External Integration	Barcode Scanner, Mouse, Keypad (Any 2 at a Time) & LIS Integration (Serial Port)"
           ],
-          imgSrc: "st200ccabgem1.jpg",
+          imgSrc: "st200cchybrid1.png",
         },
         {
-          category: "Asterial Blood Gas",
-          itemName: "Eden I15",
+          category: "Arterial Blood Gas",
+          itemName: "Edan i15 POCT Blood Gas Analzer",
           description:
             "i15 offers new features you can't find on any other analyzer. It's lightweight, portable, and easy to use. With a user-friendly design requiring zero maintenance, it makes patient-side blood testing efficient and convenient.",
           highlightPoints: [
@@ -469,6 +502,35 @@ export const siteConfig = {
             "Economical",
           ],
           imgSrc: "edani151.jpg",
+          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/20191115121303_227052.pdf"
+        },
+        {
+          category: "Arterial Blood Gas",
+          itemName: "Promea PA1000 Blood Gas Analyzer",
+          description:
+            "The PA1000 is a testament to Promea's commitment to advancing medical technology. Its intuitive interface and cutting-edge features streamline the diagnostic process",
+          highlightPoints: [
+            "Portable and Easy",
+            "Accurate and Reliable",
+            "Minimal Maintenance",
+            "Economical",
+          ],
+          imgSrc: "pa10001.png",
+          totalReview: "0"
+        },
+        {
+          category: "Arterial Blood Gas",
+          itemName: "Sensacore ST-200CS",
+          description:
+            "Sensa Core introduces the revolutionary ST 200 CS Blood Gas Analyzer with Sensor Cartridge, an advancement that will redefine point-of-care blood gas analysis.",
+          highlightPoints: [
+            "Portable and Easy",
+            "Accurate and Reliable",
+            "Minimal Maintenance",
+            "Economical",
+          ],
+          imgSrc: "st200csup1.png",
+          totalReview: "0"
         },
       ],
     },
@@ -476,10 +538,25 @@ export const siteConfig = {
     {
       title: "Electrolytes",
       description: "Find other useful materials and machines",
+      category: "Electrolytes Analyzer",
       subProducts: [
         {
+          imgSrc: "/pa100updated1.webp",
+          itemName: "Promea Prochem-PA100",
+          description:
+            "The Promea PA100 Electrolyte Analyzer is a cutting-edge device designed to accurately measure and analyze various essential parameters in a wide range of specimens, including Whole Blood, Serum, Plasma, and Urine.",
+          highlightPoints: [
+            "Measuring time: Less than 60 seconds",
+            "Samples per Pack: Up to 1000 samples per Reagent Pack.",
+            "Reagent Security: Intelligent Reagent Pack with electronic chip.",
+            "Parameter Conversion: Integrated Parameter conversion functionality.",
+          ],
+          category: "Electrolytes Analyzer",
+        },
+        {
           imgSrc: "st200aqua1.jpg",
-          itemName: "ST-200 aQua Electrolyte Analyzer",
+          itemName: "Sensacore ST-200 aQua",
+          category: "Electrolytes Analyzer",
           description:
             "Sensa Cores ST-200aQua Electrolyte Analyzer is a automated, microprocessor-controlled electrolyte system that uses current ISE technology to make imbalance of electrolyte measurement.",
           highlightPoints: [
@@ -491,17 +568,18 @@ export const siteConfig = {
           fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/622b42eb0df1709579dcdcf2ff2d411a.pdf"
         },
         {
-          imgSrc: "/prochem1001.webp",
-          itemName: "Prochem-PA100",
+          imgSrc: "st200bicarb1.jpeg",
+          itemName: "Sensacore ST-200 aQua BI-Carbonate",
+          category: "Electrolytes Analyzer",
           description:
-            "The Promea PA100 Electrolyte Analyzer is a cutting-edge device designed to accurately measure and analyze various essential parameters in a wide range of specimens, including Whole Blood, Serum, Plasma, and Urine.",
+            "Fully Automatic Sensa Core ST-200 AQua HCO3 Electrolyte Analyzer, For Laboratory, User Input: Touch",
           highlightPoints: [
-            "Measuring time: Less than 60 seconds",
-            "Samples per Pack: Up to 1000 samples per Reagent Pack.",
-            "Reagent Security: Intelligent Reagent Pack with electronic chip.",
-            "Parameter Conversion: Integrated Parameter conversion functionality.",
+            "Principle : Direct measurement with ion selective electrode(ISE).",
+            "Parameters: This functionality allows the change of analytes.",
+            "SampleType: Wholeblood, serum, plasma, CSF and diluted urine",
           ],
         },
+       
       ],
     },
 
@@ -512,21 +590,7 @@ export const siteConfig = {
       subProducts: [
         {
           category: "Molecular",
-          itemName: "EXM 6000",
-          highlightPoints: [
-            "Only 12 min forextraction of 96 samples",
-            "Magnetic flux is up to 5500 GS, avoiding the risk of magnetic bead down",
-            "Recovery rate of magnetic bead",
-            "≤3%ＣV",
-          ],
-          description:
-            "Nucleic acid isolation system EXM6000 is designed as a high-tech instrument to isolate and purify DNA/RNA from various type of samples.",
-          imgSrc: "/exm60001.png",
-          totalReview: "4",
-        },
-        {
-          category: "Molecular",
-          itemName: "EXM 3000 Nucleic Acid Isolation System",
+          itemName: "Zybio EXM 3000 Nucleic Acid Isolation System",
           highlightPoints: [
             "Throughput 1-32",
             "Process volume 30 μL-1000 μL",
@@ -544,47 +608,62 @@ export const siteConfig = {
         },
         {
           category: "Molecular",
-          itemName: "Nucleic Acid Extraction Kit",
+          itemName: "Zybio EXM 6000",
           highlightPoints: [
-            "For the extraction of nucleic acid（DNA/RNA) to be used in PCR, NGS etc.",
-            "9 min for extraction of 32 viral samples",
-            "One washing step, less loss of nucleic acid, more yield",
-            "Stable performance and reliable quality, laying a reliable foundation for the subsequent molecular experiment.",
-          ],
-          description: "",
-          imgSrc: "/extractionkit1.jpg",
-          totalReview: "4",
-        },
-        {
-          category: "Molecular",
-          itemName: "Detection Kit",
-          highlightPoints: [
-            "Plan 1: High-throughput Nucleic Acid Isolation system + PCR System",
-            "Plan 2: Low-throughput Nucleic Acid Isolation system + PCR System",
-            "Plan 3: Manual Extraction + PCR System",
+            "Only 12 min forextraction of 96 samples",
+            "Magnetic flux is up to 5500 GS, avoiding the risk of magnetic bead down",
+            "Recovery rate of magnetic bead",
+            "≤3%ＣV",
           ],
           description:
-            "SARS-CoV-2 Nucleic Acid Detection Kit is designed for qualitative detecting the RNA of SARS-CoV-2 in the samples of nasal/throat swab. For suspected case, suspected cluster case or other cases that require the diagnostic and differential diagnosis of SARS-CoV-2 infection, which helps the clinical diagnosis of the infection of SARS-CoV-2.",
-          imgSrc: "/detectionkit1.jpg",
-          totalReview: "4",
-          highlightHeader: "Available Plans",
-        },
-        {
-          category: "Molecular",
-          itemName: "vtm",
-          highlightPoints: [
-            "Safe and efficient: We add cryoprotectant specially, which is conducive to the long-term preservation of the virus.",
-            "Easy operation：Flocked swabs ensure the maximum amount of sample sampling and release.",
-            "Multiple specifications： Non- inactivated and inactivated sampling tube, meet your different clinical needs.",
-          ],
-          description:
-            "Disposable Virus Sampling Tube adopts efficient virus inactivation technology and special flocked swab. It can be used for the collection and storage of clinical novel coronavirus, influenza, avian influenza (such as H7N9), hand-foot-mouth virus, measles and other virus specimens, as well as chlamydia, mycoplasma, and ureaplasma.",
-          imgSrc: "/vtm1.jpg",
+            "Nucleic acid isolation system EXM6000 is designed as a high-tech instrument to isolate and purify DNA/RNA from various type of samples.",
+          imgSrc: "/exm60001.png",
           totalReview: "4",
         },
+
+        // {
+        //   category: "Molecular",
+        //   itemName: "Zybio Quantitative RTPCR",
+        //   highlightPoints: [
+        //     "For the extraction of nucleic acid（DNA/RNA) to be used in PCR, NGS etc.",
+        //     "9 min for extraction of 32 viral samples",
+        //     "One washing step, less loss of nucleic acid, more yield",
+        //     "Stable performance and reliable quality, laying a reliable foundation for the subsequent molecular experiment.",
+        //   ],
+        //   description: "",
+        //   imgSrc: "/extractionkit1.jpg",
+        //   totalReview: "4",
+        // },
+        // {
+        //   category: "Molecular",
+        //   itemName: "Zybio Detection Kit",
+        //   highlightPoints: [
+        //     "Plan 1: High-throughput Nucleic Acid Isolation system + PCR System",
+        //     "Plan 2: Low-throughput Nucleic Acid Isolation system + PCR System",
+        //     "Plan 3: Manual Extraction + PCR System",
+        //   ],
+        //   description:
+        //     "SARS-CoV-2 Nucleic Acid Detection Kit is designed for qualitative detecting the RNA of SARS-CoV-2 in the samples of nasal/throat swab. For suspected case, suspected cluster case or other cases that require the diagnostic and differential diagnosis of SARS-CoV-2 infection, which helps the clinical diagnosis of the infection of SARS-CoV-2.",
+        //   imgSrc: "/detectionkit1.jpg",
+        //   totalReview: "4",
+        //   highlightHeader: "Available Plans",
+        // },
+        // {
+        //   category: "Molecular",
+        //   itemName: "Zybio vtm",
+        //   highlightPoints: [
+        //     "Safe and efficient: We add cryoprotectant specially, which is conducive to the long-term preservation of the virus.",
+        //     "Easy operation：Flocked swabs ensure the maximum amount of sample sampling and release.",
+        //     "Multiple specifications： Non- inactivated and inactivated sampling tube, meet your different clinical needs.",
+        //   ],
+        //   description:
+        //     "Disposable Virus Sampling Tube adopts efficient virus inactivation technology and special flocked swab. It can be used for the collection and storage of clinical novel coronavirus, influenza, avian influenza (such as H7N9), hand-foot-mouth virus, measles and other virus specimens, as well as chlamydia, mycoplasma, and ureaplasma.",
+        //   imgSrc: "/vtm1.jpg",
+        //   totalReview: "4",
+        // },
         {
           category: "Molecular",
-          itemName: "ZIP - 96V",
+          itemName: "Zybio RTPCR ZIP - 96V",
           highlightPoints: ["HIGH THROUGHPUT 96 test per run"],
           description:
             "Quantitative real-time PCR system ZIP-96V is intended to perform fluorescence-based PCR to provide quantitative and qualitative de-tection of nucleic acid sequences in human derived specimens.",
@@ -593,7 +672,7 @@ export const siteConfig = {
         },
         {
           category: "Molecular",
-          itemName: "EXP 160",
+          itemName: "Zybio RTPCR EXP 160",
           highlightPoints: [
             "≤ 35 mins Operation speed by using Zybio fast detection kit",
             "16 tests/run 2×8 wells",
@@ -604,6 +683,19 @@ export const siteConfig = {
           imgSrc: "/exp1601.png",
           totalReview: "4",
         },
+        // {
+        //   category: "Molecular",
+        //   itemName: "Zybio RTPCR EXP 160R",
+        //   highlightPoints: [
+        //     "≤ 35 mins Operation speed by using Zybio fast detection kit",
+        //     "16 tests/run 2×8 wells",
+        //     "12.5 kg As light as 12.5kg system weight",
+        //   ],
+        //   description:
+        //     "Fast Real-time PCR System EXP160 is an automated ampliﬁcation instrument designed for qualitative and quantitative detection of nucleic acid sequence in human-derived specimens.",
+        //   imgSrc: "/exp1601.png",
+        //   totalReview: "4",
+        // },
       ],
     },
     {
@@ -625,7 +717,7 @@ export const siteConfig = {
         // },
         {
           category: "Microbiology",
-          itemName: "Microbiology Reagents",
+          itemName: "Zybio Mass Spectrometry System EXS 2600",
           highlightPoints: [
             "Sample Treatment Matrix Solution",
             "Mold Sample Pretreatment Kit",
@@ -634,8 +726,8 @@ export const siteConfig = {
           ],
           description:
             "Several pretreatment reagent kits are used to speed up the bacteria pretreatment procedure and improve the accuracy of MALDI-TOF identification results",
-          imgSrc: "/mReg1.jpg",
-          totalReview: "4",
+          imgSrc: "/exs26001.png",
+          totalReview: "0",
         },
       ],
     },
@@ -645,7 +737,7 @@ export const siteConfig = {
       subProducts: [
         {
           category: "Hemostasis",
-          itemName: "YX 2000 (Fully auto)",
+          itemName: "Zybio YX 2000 Coagulation (Fully auto)",
           highlightPoints: [
             "PT 320 T/H",
             "Reagent positions onboard. 20 (16 with cooling unit, 4 with room temperature).",
@@ -658,34 +750,35 @@ export const siteConfig = {
           imgSrc: "/yx200ac1.png",
           totalReview: "4",
         },
-        {
-          imgSrc: "hemareg1.jpg", // Replace with actual image path
-          itemName: "Liquid Hemostasis Reagent Analyzer",
-          description:
-            "The Liquid Hemostasis Reagent Analyzer offers precise and reliable testing for coagulation studies using advanced liquid reagent technology. Ideal for laboratories and diagnostic centers, it ensures accurate and consistent results.",
-          highlightPoints: [
-            "Sample Volume: 50 µL",
-            "Sample Type: Whole Blood, Plasma",
-            "Parameters: PT, APTT, Fibrinogen, D-Dimer.",
-            "User-friendly Interface with Touch Screen",
-            "External Integration: LIS Integration (USB/Serial Port).",
-          ],
-        },
+        
         // {
-        //   category: "Hemostasis",
-        //   itemName: "YX 3000",
+        //   imgSrc: "hemareg1.jpg", // Replace with actual image path
+        //   itemName: "Liquid Hemostasis Reagent Analyzer",
+        //   description:
+        //     "The Liquid Hemostasis Reagent Analyzer offers precise and reliable testing for coagulation studies using advanced liquid reagent technology. Ideal for laboratories and diagnostic centers, it ensures accurate and consistent results.",
         //   highlightPoints: [
-        //     "PT 410 T/H",
-        //     "Reagent positions onboard. 39 (35 with cooling unit, 4 with room temperature).",
-        //     "APTT/PT/TT/FIB. 224 T/H",
-        //     "Light source . LED, slow decay, maintenance-free.",
-        //     "Sample capacity onboard. 80, and can switch to STAT positions at any time.",
-        //     "Automatic Sample Loading. Support continuous automatic sample loading.",
+        //     "Sample Volume: 50 µL",
+        //     "Sample Type: Whole Blood, Plasma",
+        //     "Parameters: PT, APTT, Fibrinogen, D-Dimer.",
+        //     "User-friendly Interface with Touch Screen",
+        //     "External Integration: LIS Integration (USB/Serial Port).",
         //   ],
-        //   description: "Automated Blood Coagulation Analyzer",
-        //   imgSrc: "/yx30001.png",
-        //   totalReview: "4",
         // },
+        {
+          category: "Hemostasis",
+          itemName: "Zybio YX 3000 Coagulation",
+          highlightPoints: [
+            "PT 410 T/H",
+            "Reagent positions onboard. 39 (35 with cooling unit, 4 with room temperature).",
+            "APTT/PT/TT/FIB. 224 T/H",
+            "Light source . LED, slow decay, maintenance-free.",
+            "Sample capacity onboard. 80, and can switch to STAT positions at any time.",
+            "Automatic Sample Loading. Support continuous automatic sample loading.",
+          ],
+          description: "Automated Blood Coagulation Analyzer",
+          imgSrc: "/yx30001.png",
+          totalReview: "4",
+        },
       ],
     },
     // {

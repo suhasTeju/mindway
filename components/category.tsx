@@ -57,7 +57,7 @@ const Skeleton = ({ url }: Skeleton) => (
       src={url}
       className="w-full h-full"
       loading="lazy"
-      style={{ objectFit: "fill" }}
+      style={{ objectFit: "contain" }}
       alt="clients"
     />
   </div>
@@ -70,28 +70,28 @@ export const items = [
     title: "Hematology",
     description:
       "Examine blood, blood diseases, and the organs involved in forming blood.",
-    header: <Skeleton url="/z31.png" />,
+    header: <Skeleton url="/hematcat.jpg" />,
     icon: <IconBone className="h-4 w-4 text-green-500" />,
     count: getProductCount("Hematology")
   },
   {
     title: "Clinical Chemistry",
     description: "Analyze chemical processes and substances in the human body.",
-    header: <Skeleton url="exc2001.png" />,
+    header: <Skeleton url="biochemcat.jpg" />,
     icon: <IconChemical className="h-4 w-4 text-green-500" />,
     count: getProductCount("Clinical Chemistry")
   },
   {
     title: "CLIA",
     description: "Ensure quality standards for laboratory testing.",
-    header: <Skeleton url="/magic60001.png" />,
+    header: <Skeleton url="/CLIA.jpg" />,
     icon: <IconTestTube className="h-4 w-4 text-green-500" />,
     count: getProductCount("CLIA")
   },
   {
-    title: "POCT",
+    title: "POCT Fluorescence Immunoassay Analyzer",
     description: "Perform medical diagnostic testing at the point of care.",
-    header: <Skeleton url="/1201.png" />,
+    header: <Skeleton url="/POCT.jpg" />,
     icon: <IconHeartbeat className="h-4 w-4 text-green-500" />,
     count: getProductCount("POCT")
   },
@@ -99,17 +99,17 @@ export const items = [
     title: "Urinalysis",
     description:
       "Test and analyze urine to diagnose various medical conditions.",
-    header: <Skeleton url="/u36001.png" />,
+    header: <Skeleton url="/Urine 01.jpg" />,
     icon: <IconMicroscope className="h-4 w-4 text-green-500" />,
     count: getProductCount("Urinalysis")
   },
   {
-    title: "Asterial Blood Gas",
+    title: "Arterial Blood Gas",
     description:
       "works by analysing a small blood sample taken from an artery",
-    header: <Skeleton url="edani151.jpg" />,
+    header: <Skeleton url="abg.jpg" />,
     icon: <IconBrandAsana className="h-4 w-4 text-green-500" />,
-    count: getProductCount("Asterial Blood Gas")
+    count: getProductCount("Arterial Blood Gas")
   },
   {
     title: "Electrolytes",
@@ -130,7 +130,7 @@ export const items = [
   {
     title: "Microbiology",
     description: "Examine and analyze microorganisms with precision.",
-    header: <Skeleton url="/mReg1.jpg" />,
+    header: <Skeleton url="/exs26001.png" />,
     icon: <IconVirus className="h-4 w-4 text-green-500" />,
     count: getProductCount("Microbiology")
   },

@@ -11,18 +11,22 @@ export function Certified() {
         <div className="dark:text-white text-black text-2xl md:text-4xl font-bold">
           {/* <TypewriterEffectSmooth words={words} /> */}
           <span className="flex gap-2 text-center items-center bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-green-600 to-green-500">
-           Authorised Distributors of Karnataka for <img src="medal.png" alt="certified" className="h-12 w-12 md:h-24 md:w-24" /> 
+           Sole<br/>Authorised Distributors of Karnataka for <img src="medal.png" alt="certified" className="h-12 w-12 md:h-24 md:w-24" /> 
           </span>
         </div>
       </div>
       <Dock data-aos="fade-up" className="mt-4 gap-8 bg-gray-50" >
         <DockIcon>
+          <a href="https://www.zybio.com/product/40.html">
           <img src="zybio.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />
+          </a>
         </DockIcon>
         {/* <DockIcon><img src="gi.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" /></DockIcon> */}
         {/* <DockIcon></DockIcon> */}
         <DockIcon>
+        <a href="https://promea.in/">
           <img src="pri.webp" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />
+          </a>
         </DockIcon>
         {/* <DockIcon>
           <Icons.notion className="h-6 w-6" />

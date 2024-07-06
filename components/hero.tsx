@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <>
       {/* <!-- Hero --> */}
-      <div data-aos="fade-up" className="max-w-[85rem] mx-auto p-4 sm:p-6 lg:p-8 rounded-2xl">
+      <div data-aos="fade-up" className="max-w-[100rem] mx-auto p-4 sm:p-6 lg:p-4 rounded-2xl">
         {/* <!-- Grid --> */}
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div>
@@ -237,12 +237,13 @@ export const Hero = () => {
           <div className="relative h-full w-full">
             <img
               className="w-full h-full rounded-md"
-              src="/hero1.jpeg"
+              src="/hero2.jpg"
               alt="Image Description"
+              style={{objectFit: "fill"}}
             />
             {/* <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6"></div> */}
 
-            <div className="absolute bottom-0 start-0 hidden md:flex">
+            {/* <div className="absolute bottom-0 start-0 hidden md:flex">
               <svg
                 className="w-2/3 ms-auto h-auto text-white"
                 width="630"
@@ -359,7 +360,7 @@ export const Hero = () => {
                   fill="currentColor"
                 />
               </svg>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
