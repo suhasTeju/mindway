@@ -343,7 +343,7 @@ export const siteConfig = {
       ],
     },
     {
-      title: "POCT",
+      title: "POCT Fluorescence Immunoassay Analyzer",
       description: "Perform medical diagnostic testing at the point of care.",
       subProducts: [
         {
