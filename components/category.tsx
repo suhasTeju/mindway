@@ -129,7 +129,7 @@ export const items = [
   },
   {
     title: "Microbiology",
-    description: "Examine and analyze microorganisms with precision.",
+    description: "Examine and analyze micro-organisms with precision.",
     header: <Skeleton url="/Micro biology.jpg" />,
     icon: <IconVirus className="h-4 w-4 text-green-500" />,
     count: getProductCount("Microbiology")
@@ -145,7 +145,7 @@ export const items = [
   {
     title: "Others",
     description:
-      "Laboratory consumeable",
+      "Laboratory Consumables",
     header: <Skeleton url="bioreagent1.jpg" />,
     icon: <IconLayersIntersect className="h-4 w-4 text-green-500" />,
     count: getProductCount("Others")

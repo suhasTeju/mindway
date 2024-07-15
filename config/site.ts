@@ -406,6 +406,22 @@ export const siteConfig = {
           fileLink:
             "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Getein-1160-brochure-.pdf",
         },
+        {
+          category: "POCT",
+          itemName: "Boditech ichroma™ II",
+          highlightPoints: [
+            "High performance with reliability",
+            "Small, compact & light",
+            "Multi-test function",
+            "LIS/HIS compatible"
+          ],
+          description:
+            "A compact and easy-to-use, fluorescence based POCT immunoassay analyzer",
+          imgSrc: "/ichroma1.jpg",
+          totalReview: "4",
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/rev27_brochure_20200422_8p_s.pdf",
+        },
       ],
     },
     {
@@ -438,7 +454,7 @@ export const siteConfig = {
           ],
           description: "Urine Sediment Analyzer Precise and effcient",
           imgSrc: "/U1600.jpg",
-          totalReview: "4",
+          totalReview: "0",
         },
         {
           category: "Urinalysis",
@@ -450,7 +466,7 @@ export const siteConfig = {
           ],
           description: "Urine Sediment Analyzer Precise and effcient",
           imgSrc: "/U2600.jpg",
-          totalReview: "4",
+          totalReview: "0",
         },
         {
           category: "Urinalysis",
@@ -747,7 +763,7 @@ export const siteConfig = {
     },
     {
       title: "Microbiology",
-      description: "Examine and analyze microorganisms with precision.",
+      description: "Examine and analyze micro-organisms with precision.",
       subProducts: [
         // {
         //   category: "Microbiology",
