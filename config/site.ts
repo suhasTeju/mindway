@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Mindway Biomedical",
+  name: "Mindway Biomedical Pvt Ltd",
   description:
     "High-Quality Biomedical Equipment to Empower Your Diagnostic Center",
   navItems: [

@@ -18,14 +18,14 @@ export function Certified() {
       <Dock data-aos="fade-up" className="mt-4 gap-8 bg-gray-50" >
         <DockIcon>
           <a href="https://www.zybio.com/product/40.html">
-          <img src="zybio.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />
+          <img src="zybio.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" alt="zybio"/>
           </a>
         </DockIcon>
         {/* <DockIcon><img src="gi.jpeg" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" /></DockIcon> */}
         {/* <DockIcon></DockIcon> */}
         <DockIcon>
         <a href="https://promea.in/">
-          <img src="pri.webp" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" />
+          <img src="pri.webp" className="h-10 w-10 md:h-50 md:w-50 rounded-2xl" alt="promea"/>
           </a>
         </DockIcon>
         {/* <DockIcon>

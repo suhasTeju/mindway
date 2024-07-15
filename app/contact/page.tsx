@@ -26,7 +26,7 @@ export default function () {
     const encodedText = encodeURIComponent(prefilledText);
 
     // Construct WhatsApp URL with prefilled text
-    const whatsappURL = `https://wa.me/+919731370710?text=${encodedText}`;
+    const whatsappURL = `https://wa.me/+919108011234?text=${encodedText}`;
 
     // Redirect user to WhatsApp
     window?.open(whatsappURL, "_blank");
