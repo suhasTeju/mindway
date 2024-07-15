@@ -10,7 +10,7 @@ export const Logo: React.FC<IconSvgProps> = ({
   height,
   ...props
 }) => (
-  <Image
+  <img
     src={siteConfig.logo.transparent}
     alt="mindlab"
     width={(width as number) || size}
