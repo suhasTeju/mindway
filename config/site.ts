@@ -25,8 +25,8 @@ export const siteConfig = {
     },
     {
       label: "All Products",
-      href: "/all-product"
-    }
+      href: "/all-product",
+    },
   ],
   links: {
     github: "https://github.com/nextui-org/nextui",
@@ -92,7 +92,8 @@ export const siteConfig = {
             "A new generation 3-diff hematology analyzer tailored for small laboratory",
           imgSrc: "/z3updated.jpg",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91+Z3_EN.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91+Z3_EN.pdf",
         },
         {
           category: "Hematology",
@@ -119,7 +120,8 @@ export const siteConfig = {
             "An evolved 5-diff hematology analyzer enable all possibilities in the small laboratories",
           imgSrc: "/z50.jpg",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Zybio+Z50.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Zybio+Z50.pdf",
         },
         {
           category: "Hematology",
@@ -134,7 +136,8 @@ export const siteConfig = {
             "A powerful assistant for micro-volume whole blood automatic detection",
           imgSrc: "/EXZ 6000.jpg",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio%E3%80%91EXZ6000+Hematology+Analyzer-flyer.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio%E3%80%91EXZ6000+Hematology+Analyzer-flyer.pdf",
         },
         // {
         //   category: "Hematology",
@@ -179,7 +182,8 @@ export const siteConfig = {
             "Promea’s PA 200 is a is a compact, simple, and reliable semi-automated biochemistry analyzer proficient in performing tests on whole blood, serum, plasma, and urine as a samples",
           imgSrc: "prochempa200min1.webp",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Promea+Clinical+Chemistry+Analyzer+(Semi+Auto)+Brochure+(1).pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Promea+Clinical+Chemistry+Analyzer+(Semi+Auto)+Brochure+(1).pdf",
         },
         {
           category: "Clinical Chemistry",
@@ -195,7 +199,8 @@ export const siteConfig = {
             "Chemistry Analyzer An automated desktop chemistry analyzer dedicated for small healthcare institution",
           imgSrc: "exc2001.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Zybio-Brochure-EXC200.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Zybio-Brochure-EXC200.pdf",
         },
         {
           category: "Clinical Chemistry",
@@ -210,9 +215,9 @@ export const siteConfig = {
             "Chemistry Analyzer An automated floor-standing chemistry analyzer customized for medium throughput laboratories.",
           imgSrc: "exc4001.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91EXC420+%EF%BC%88English+version%EF%BC%89.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91EXC420+%EF%BC%88English+version%EF%BC%89.pdf",
         },
-
 
         {
           category: "Clinical Chemistry",
@@ -242,6 +247,10 @@ export const siteConfig = {
         //   totalReview: "4",
         // },
       ],
+      extra: [
+        { image: "Chemistry Menu 1.jpg", title: "categorySlide1" },
+        { image: "Chemistry Menu 2 .jpg", title: "categorySlide2" },
+      ],
     },
     {
       title: "CLIA",
@@ -260,7 +269,8 @@ export const siteConfig = {
             "MAGICL 6000, a compact and innovative chemiluminescence immunoassay analyzer, with optimal choice for mid to high-workflow laboratories which need a one-step chemiluminescence solution.",
           imgSrc: "/magic60001.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Catalogue.+MAGICAL6000+Chemiluminescence+Immunoassay+Analyzer.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Catalogue.+MAGICAL6000+Chemiluminescence+Immunoassay+Analyzer.pdf",
         },
         {
           category: "CLIA",
@@ -275,7 +285,8 @@ export const siteConfig = {
             "The MAGICL 6000i is an innovative chemiluminescent immunoassay analyser that is a variation of the MAGICL 6000, featuring high productivity, compactness and the highly sensitive CLIA method, which is accurate, easy to use and offers the fastest detection speed in its class.",
           imgSrc: "/magic6000i1.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E5%A4%96%E8%B4%B8MAGICL+6000i%E4%BB%AA%E5%99%A8%E5%8F%8C%E6%8A%98%E9%A1%B5%EF%BC%88%E7%AB%96%E5%B0%8F%EF%BC%8924-3(1).pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E5%A4%96%E8%B4%B8MAGICL+6000i%E4%BB%AA%E5%99%A8%E5%8F%8C%E6%8A%98%E9%A1%B5%EF%BC%88%E7%AB%96%E5%B0%8F%EF%BC%8924-3(1).pdf",
         },
         {
           category: "CLIA",
@@ -290,7 +301,8 @@ export const siteConfig = {
             "Technical innovation, more accurate resullts Magnetic separation patent Non-contact vortex mixing Multi-module integration",
           imgSrc: "/EXI 1800.jpg",
           totalReview: "0",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio%E3%80%91EXI1800+iMMUNOASSAY+ANALYZER.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio%E3%80%91EXI1800+iMMUNOASSAY+ANALYZER.pdf",
         },
         {
           category: "CLIA",
@@ -341,6 +353,10 @@ export const siteConfig = {
         //   totalReview: "4",
         // },
       ],
+      extra: [
+        { image: "Clia ( CLIA REAGENT MENU ) 2.jpg", title: "categorySlide2" },
+        { image: "Clia ( CLIA REAGENT MENU ).jpg", title: "categorySlide1" },
+      ],
     },
     {
       title: "POCT Fluorescence Immunoassay Analyzer",
@@ -359,7 +375,8 @@ export const siteConfig = {
             "Fluorescence based POCT immunoassay system Unique rare earth element fluorescent microsphere labeling technology",
           imgSrc: "/q8pro1.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/q8-pro-1.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/q8-pro-1.pdf",
         },
         {
           category: "POCT",
@@ -372,7 +389,8 @@ export const siteConfig = {
           description: "Fluorescence Immunochromatgraphy Analyzer",
           imgSrc: "/1201.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91POCT-EXR+110-20221221H_%E9%A2%84%E8%A7%88.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/%E3%80%90Zybio+Brochure%E3%80%91POCT-EXR+110-20221221H_%E9%A2%84%E8%A7%88.pdf",
         },
         {
           category: "POCT",
@@ -385,7 +403,8 @@ export const siteConfig = {
             "Getein 1160 is a multi-channel analyzer which has 4 incubation channels and 1 emergency test channel, and also has constant test environment with 32℃ to ensure more accurate test results.",
           imgSrc: "/getin11601.jpg",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Getein-1160-brochure-.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Getein-1160-brochure-.pdf",
         },
       ],
     },
@@ -406,7 +425,8 @@ export const siteConfig = {
             "The Mission® U120 Smart Urine Analyzer is a compact, efficient device designed for precise urine analysis.",
           imgSrc: "/u1201.png",
           totalReview: "4",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Venkatesh+03.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Venkatesh+03.pdf",
         },
         {
           category: "Urinalysis",
@@ -440,8 +460,6 @@ export const siteConfig = {
           imgSrc: "/U3600.jpg",
           totalReview: "4",
         },
-        
-        
       ],
     },
     {
@@ -462,7 +480,8 @@ export const siteConfig = {
             "Maximum 2,00,000+ sample storage capacity.",
           ],
           imgSrc: "st200cc1.jpg",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/3457dcb654b2c5cf34e36ab2153373c2.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/3457dcb654b2c5cf34e36ab2153373c2.pdf",
         },
         {
           category: "Arterial Blood Gas",
@@ -476,7 +495,8 @@ export const siteConfig = {
             "Principle	Direct Measurement with ISE(electrolytes), Impedance (Hct), and Amperometry (Gases and Metobolites)",
           ],
           imgSrc: "abgem1.jpg",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Ultra+Smart+Brochure++(1).pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/Ultra+Smart+Brochure++(1).pdf",
         },
         {
           category: "Arterial Blood Gas",
@@ -486,7 +506,7 @@ export const siteConfig = {
           highlightPoints: [
             "Sample Volume	100 μL (Capillary/Micro mode)",
             "Sample Type	Whole Blood, Serum, Plasma, Diluted Urine and QC",
-            "External Integration	Barcode Scanner, Mouse, Keypad (Any 2 at a Time) & LIS Integration (Serial Port)"
+            "External Integration	Barcode Scanner, Mouse, Keypad (Any 2 at a Time) & LIS Integration (Serial Port)",
           ],
           imgSrc: "st200cchybrid1.png",
         },
@@ -502,7 +522,8 @@ export const siteConfig = {
             "Economical",
           ],
           imgSrc: "edani151.jpg",
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/20191115121303_227052.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/20191115121303_227052.pdf",
         },
         {
           category: "Arterial Blood Gas",
@@ -516,7 +537,7 @@ export const siteConfig = {
             "Economical",
           ],
           imgSrc: "pa10001.png",
-          totalReview: "0"
+          totalReview: "0",
         },
         {
           category: "Arterial Blood Gas",
@@ -530,7 +551,7 @@ export const siteConfig = {
             "Economical",
           ],
           imgSrc: "st200csup1.png",
-          totalReview: "0"
+          totalReview: "0",
         },
       ],
     },
@@ -565,7 +586,8 @@ export const siteConfig = {
             "Parameters: Na, K, iCa, Cl, Li, pH.",
             "External Integration: LIS Integration (Serial Port).",
           ],
-          fileLink: "https://shopsi-dev.s3.ap-south-1.amazonaws.com/622b42eb0df1709579dcdcf2ff2d411a.pdf"
+          fileLink:
+            "https://shopsi-dev.s3.ap-south-1.amazonaws.com/622b42eb0df1709579dcdcf2ff2d411a.pdf",
         },
         {
           imgSrc: "st200bicarb1.jpeg",
@@ -579,7 +601,6 @@ export const siteConfig = {
             "SampleType: Wholeblood, serum, plasma, CSF and diluted urine",
           ],
         },
-       
       ],
     },
 
@@ -697,6 +718,32 @@ export const siteConfig = {
         //   totalReview: "4",
         // },
       ],
+      extra: [
+        {
+          image: "Nuclear - Nucleic Acid Extraction Kit 1.jpg",
+          title: "categorySlide2",
+        },
+        {
+          image: "Nuclear - Nucleic Acid Extraction Kit 2.jpg",
+          title: "categorySlide1",
+        },
+        {
+          image: "Molicular - Disposable Virus Sampling tube 01.jpg",
+          title: "categorySlide2",
+        },
+        {
+          image: "Molicular - Disposable Virus Sampling tube 02.jpg",
+          title: "categorySlide2",
+        },
+        {
+          image: "MOLICUAR Zybio RUO products 01.jpg",
+          title: "categorySlide2",
+        },
+        {
+          image: "MOLICUAR Zybio RUO products 2.jpg",
+          title: "categorySlide2",
+        },
+      ],
     },
     {
       title: "Microbiology",
@@ -730,6 +777,16 @@ export const siteConfig = {
           totalReview: "0",
         },
       ],
+      extra: [
+        {
+          image: "Microbology  - Microbe Sample Pretreatment Kit  1.jpg",
+          title: "categorySlide1",
+        },
+        {
+          image: "Microbology  - Microbe Sample Pretreatment Kit  2.jpg",
+          title: "categorySlide2",
+        },
+      ],
     },
     {
       title: "Hemostasis",
@@ -750,7 +807,7 @@ export const siteConfig = {
           imgSrc: "/yx200ac1.png",
           totalReview: "4",
         },
-        
+
         // {
         //   imgSrc: "hemareg1.jpg", // Replace with actual image path
         //   itemName: "Liquid Hemostasis Reagent Analyzer",
@@ -778,6 +835,16 @@ export const siteConfig = {
           description: "Automated Blood Coagulation Analyzer",
           imgSrc: "/yx30001.png",
           totalReview: "4",
+        },
+      ],
+      extra: [
+        {
+          image: "Hemostasis - Liquid Hemostasis Reagent 1 .jpg",
+          title: "categorySlide1",
+        },
+        {
+          image: "Hemostasis - Liquid Hemostasis Reagent 2 .jpg",
+          title: "categorySlide2",
         },
       ],
     },

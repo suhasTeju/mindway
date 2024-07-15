@@ -18,16 +18,12 @@ import { useEffect, useState } from "react";
 // import { useRouter } from "next/router";
 import {
   IconBrandWhatsapp,
-  IconChevronDown,
-  IconChevronUp,
 } from "@tabler/icons-react";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { Logo, SearchIcon, WhatsAppLogo } from "@/components/icons";
-import { MegaMenu } from "./UI/mega-menu";
 import { usePathname } from "next/navigation";
 import { Dropdown } from "./UI/dropdown";
-import { Input } from "@nextui-org/input";
 import ProductSearch from "./search-products";
 
 export const Navbar = () => {

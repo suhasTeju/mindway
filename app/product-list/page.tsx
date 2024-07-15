@@ -11,6 +11,7 @@ import { useSearchParams, usePathname } from "next/navigation";
 function ProductListContent() {
   const [category, setCategory] = useState<string | null>(null);
   const [catProducts, setCatProducts] = useState([]);
+  const [extra, setExtra] = useState([]);
   const searchParams = useSearchParams();
   const pathname = usePathname();
 
@@ -25,9 +26,14 @@ function ProductListContent() {
     if (category) {
       const data = siteConfig.productCategory.find(
         (pr) => pr.title === category
-      )?.subProducts;
+      )
+      const subProduct = data?.subProducts;
       //@ts-ignore
-      setCatProducts(data);
+      const extra = data?.extra || []
+      //@ts-ignore
+      setExtra(extra)
+      //@ts-ignore
+      setCatProducts(subProduct);
     }
   }, [category]);
 
@@ -58,6 +64,16 @@ function ProductListContent() {
           }
         </div>
       ))}
+      {
+      extra.map((item, index) => (
+        <div key={index}>
+          {
+            //@ts-ignore
+            <img src={item.image} key={index} alt={item.title} className="w-full h-auto" />
+          }
+        </div>
+      ))
+      }
     </div>
   );
 }

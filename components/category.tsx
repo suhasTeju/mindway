@@ -123,14 +123,14 @@ export const items = [
     title: "Molecular",
     description:
       "Explore the molecular structure and function of biological molecules.",
-    header: <Skeleton url="/exm30001.png" />,
+    header: <Skeleton url="/Molicular.jpg" />,
     icon: <IconDna className="h-4 w-4 text-green-500" />,
     count: getProductCount("Molecular")
   },
   {
     title: "Microbiology",
     description: "Examine and analyze microorganisms with precision.",
-    header: <Skeleton url="/exs26001.png" />,
+    header: <Skeleton url="/Micro biology.jpg" />,
     icon: <IconVirus className="h-4 w-4 text-green-500" />,
     count: getProductCount("Microbiology")
   },
@@ -138,14 +138,14 @@ export const items = [
   {
     title: "Hemostasis",
     description: "Study the process of blood clotting and its disorders.",
-    header: <Skeleton url="yx200ac1.png" />,
+    header: <Skeleton url="hemostiscat.jpg" />,
     icon: <IconDroplet className="h-4 w-4 text-green-500" />,
     count: getProductCount("Hemostasis")
   },
   {
     title: "Others",
     description:
-      "Laboratory consumeable and others",
+      "Laboratory consumeable",
     header: <Skeleton url="bioreagent1.jpg" />,
     icon: <IconLayersIntersect className="h-4 w-4 text-green-500" />,
     count: getProductCount("Others")

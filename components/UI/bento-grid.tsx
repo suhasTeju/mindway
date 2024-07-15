@@ -52,11 +52,15 @@ export const BentoGridItem = ({
         <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
           {description}
         </div>
-        <Link href={`/product-list#${title}`}>
+        {title!=="Others" ? <Link href={`/product-list#${title}`}>
           <div className="font-sans py-2 font-normal text-blue-600 text-xs dark:text-neutral-300">
             Browse {count} Product{count > 1 ? "s" : ""}
           </div>
-        </Link>
+        </Link>: <ul>
+          <li className="font-sans font-normal text-neutral-600 text-xs">Centrifuge</li>
+          <li className="font-sans font-normal text-neutral-600 text-xs">Microscope</li>
+          <li className="font-sans font-normal text-neutral-600 text-xs">Incubator</li>
+          </ul>}
       </div>
     </div>
   );
