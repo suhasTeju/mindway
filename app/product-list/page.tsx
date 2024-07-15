@@ -69,7 +69,7 @@ function ProductListContent() {
         <div key={index}>
           {
             //@ts-ignore
-            <img src={item.image} key={index} alt={item.title} className="w-full h-auto" />
+            <img data-aos="fade-up" src={item.image} key={index} alt={item.title} className="w-full h-auto" />
           }
         </div>
       ))
